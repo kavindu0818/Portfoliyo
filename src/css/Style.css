@@ -1,0 +1,55 @@
+#hed{
+    position: fixed;
+}
+
+#navDiv{
+    position: absolute;
+    height: 90px;
+    width: 1350px;
+    background-color: white;
+    top: -20px;
+}
+
+#imgNav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 800px;
+}
+
+#nav{
+    position: absolute;
+    right: 30px;
+    color: white;
+    font-size: 20px;
+    top: 30px;
+}
+#tag{
+    position: absolute;
+    font-style: normal;
+    font-size: 50px;
+    left: 30px;
+    bottom: -30px;
+}
+
+#pro{
+    position: relative;
+    height: 700px;
+    background-color: blue;
+    width: 1350px;
+    top: 70px;
+}
+
+#pback1{
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+}
+
+#pback2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 700px;
+    width: 750px;
+}
