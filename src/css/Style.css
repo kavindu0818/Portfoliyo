@@ -1,13 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 #hed{
     position: fixed;
+    z-index: 200;
 }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 
 #navDiv{
     position: absolute;
     height: 90px;
     width: 1350px;
     background-color: white;
-    top: -20px;
+    top: 0px;
 }
 
 #imgNav{
@@ -34,22 +46,58 @@
 
 #pro{
     position: relative;
-    height: 700px;
-    background-color: blue;
+    height: 530px;
+    background-color: white;
     width: 1350px;
-    top: 70px;
+    top: 90px;
 }
 
 #pback1{
     position: absolute;
-    left: 300px;
+    left: 500px;
     bottom: 0px;
+    width: 600px;
 }
 
 #pback2{
     position: absolute;
     right: 0px;
     top: 0px;
-    height: 700px;
+    height: 530px;
     width: 750px;
+}
+
+#profile{
+    position: absolute;
+    right: 200px;
+    z-index: 100;
+    bottom: 10px;
+}
+#p1{
+    position: absolute;
+    font-size: 80px;
+    bottom:400px;
+    z-index: 100;
+    font-weight: bold;
+    left: 10px;
+}
+
+#p2{
+    position: absolute;
+    font-size: 50px;
+    bottom:390px;
+    z-index: 100;
+    font-weight: bold;
+    left: 10px;
+}
+
+#btn1{
+    position: absolute;
+    bottom: 400px;
+    left: 30px;
+}
+#btn2{
+    position: absolute;
+    bottom: 400px;
+    left: 110px;
 }
