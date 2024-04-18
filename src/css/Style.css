@@ -607,3 +607,30 @@ body{
     left: 100px;
     top: -10px;
 }
+
+#serviceSet{
+    position: relative;
+    height: 700px;
+    background-color: blue;
+    width: 1350px;
+    top: 12px;
+}
+
+#serviceH4{
+    position: absolute;
+    left: 600px;
+    color: rgb(179,177,143);
+}
+
+#serviceH1 {
+    position: absolute;
+    left: 550px;
+    font-size: 60px;
+}
+
+#serviceH6{
+    position: absolute;
+    left: 200px;
+    font-size: 20px;
+    top: 60px;
+}
