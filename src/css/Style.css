@@ -223,7 +223,7 @@ body{
 #about{
     position: relative;
     height: 600px;
-    background-color: red;
+    background-color: white;
     width: 1350px;
     top: 54px;
 }
@@ -361,8 +361,8 @@ body{
 
 #skillSet{
     position: relative;
-    height: 600px;
-    background-color: blue;
+    height: 700px;
+    background-color: rgb(169,169,169);
     width: 1350px;
     top: 33px;
 
@@ -392,6 +392,7 @@ body{
 
 #htmlDiv{
     position: absolute;
+    left: 30px;
     width: 250px;
     height: 200px;
     border: 1px solid black;
@@ -401,6 +402,7 @@ body{
 
 #html{
     position: absolute;
+    /*left: 40px;*/
     width: 150px;
     height: 150px;
     margin: 20px;
@@ -412,5 +414,196 @@ body{
     position: absolute;
     font-size: 20px;
     left: 95px;
+    top: -10px;
+}
+
+#cssDiv{
+    position: absolute;
+    left: 355px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 170px;
+}
+
+#css{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#cssH5{
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: -10px;
+}
+
+#jsDiv{
+    position: absolute;
+    left: 680px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 170px;
+}
+
+#js{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#jsH5{
+    position: absolute;
+    font-size: 20px;
+    left: 110px;
+    top: -10px;
+}
+
+#mysqlDiv{
+    position: absolute;
+    right: 30px;
+    /*left: 985px;*/
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 170px;
+}
+
+#mysql{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#mysqlH5{
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: -10px;
+}
+
+#hybernrtDiv{
+    position: absolute;
+    left: 30px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 400px;
+}
+
+#hybernet{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    top: 50px;
+    left: 30px;
+}
+
+#hybernetH5{
+    position: absolute;
+    font-size: 20px;
+    left: 95px;
+    top: -10px;
+}
+
+#springDiv{
+    position: absolute;
+    left: 355px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 400px;
+}
+
+#spring{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#springH5{
+    position: absolute;
+    font-size: 20px;
+    left: 80px;
+    top: -10px;
+}
+
+#reactDiv{
+    position: absolute;
+    left: 680px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 400px;
+}
+
+#react{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#reactH5{
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
+    top: -10px;
+}
+
+#figmaDiv{
+    position: absolute;
+    right: 30px;
+    /*left: 985px;*/
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 30px;
+    top: 400px;
+}
+
+#figma{
+    position: absolute;
+    /*left: 40px;*/
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    top: 25px;
+    left: 30px;
+}
+
+#figmaH5{
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
     top: -10px;
 }
