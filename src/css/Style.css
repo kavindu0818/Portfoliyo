@@ -629,7 +629,7 @@ header>div>nav>a:hover{
     position: relative;
     height: 960px;
     background-color:whitesmoke;
-    width: 1350px;
+    /*width: 1350px;*/
     top: 12px;
 }
 
@@ -988,5 +988,73 @@ header>div>nav>a:hover{
     top: 15px;
     width: 70px;
     height: 70px;
+}
+
+#assignmentSet{
+    position: relative;
+    height: 960px;
+    background-color: rgb(169,169,169);
+    /*width: 1350px;*/
+    top: -10px;
+}
+
+#AssH1{
+    position: absolute;
+    left: 550px;
+    font-size: 50px;
+}
+
+#assH6{
+    position: absolute;
+    font-size: 20px;
+    left: 150px;
+    top: 60px;
+}
+
+#oopDiv{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 170px;
+    left: 70px;
+    background-color: rgb(217,217,217);
+}
+
+#oopH3 {
+    position: absolute;
+    left: 450px;
+    font-size: 30px;
+
+}
+
+#oopImg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 550px;
+    top: 80px;
+}
+
+#seDiv{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 400px;
+    left: 70px;
+    background-color: rgb(217,217,217);
+}
+
+#seH3{
+    position: absolute;
+    left: 450px;
+    font-size: 30px;
+}
+
+#seImg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 550px;
+    top: 80px;
 }
 
