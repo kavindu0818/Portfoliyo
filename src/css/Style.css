@@ -951,3 +951,42 @@ header>div>nav>a:hover{
     top: 10px;
 }
 
+#sI2{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+#sI3{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+#sI4{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+#sI5{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+
+}
+
+#sI6{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 70px;
+    height: 70px;
+}
+
