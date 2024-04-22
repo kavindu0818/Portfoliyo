@@ -992,7 +992,7 @@ header>div>nav>a:hover{
 
 #assignmentSet{
     position: relative;
-    height: 960px;
+    height: 1200px;
     background-color: rgb(169,169,169);
     /*width: 1350px;*/
     top: -10px;
@@ -1020,6 +1020,15 @@ header>div>nav>a:hover{
     background-color: rgb(217,217,217);
 }
 
+#oopDiv:hover{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 170px;
+    left: 70px;
+    background-color: rgb(177,180,147);
+}
+
 #oopH3 {
     position: absolute;
     left: 450px;
@@ -1044,6 +1053,16 @@ header>div>nav>a:hover{
     background-color: rgb(217,217,217);
 }
 
+#seDiv:hover{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 400px;
+    left: 70px;
+    background-color: rgb(177,180,147);
+}
+
+
 #seH3{
     position: absolute;
     left: 450px;
@@ -1056,5 +1075,79 @@ header>div>nav>a:hover{
     height: 100px;
     left: 550px;
     top: 80px;
+}
+
+#ormDiv{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 630px;
+    left: 70px;
+    background-color: rgb(217,217,217);
+}
+
+#ormDiv:hover{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 630px;
+    left: 70px;
+    background-color: rgb(177, 180, 147);
+}
+
+#ormH3{
+    position: absolute;
+    left: 450px;
+    font-size: 30px;
+}
+
+#ormImg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 550px;
+    top: 80px;
+}
+
+#itDiv{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 860px;
+    left: 70px;
+    background-color:  rgb(217,217,217);
+}
+
+#itDiv:hover {
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    top: 860px;
+    left: 70px;
+    background-color: rgb(177, 180, 147);
+}
+
+#itH3{
+    position: absolute;
+    left: 450px;
+    font-size: 30px;
+}
+
+#itImg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 550px;
+    top: 80px;
+}
+
+#downBtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 100px;
+    bottom: 20px;
+    left: 650px;
 }
 
