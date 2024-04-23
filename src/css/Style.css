@@ -1153,7 +1153,7 @@ header>div>nav>a:hover{
 
 #projectDiv{
     position: relative;
-    height: 1200px;
+    height: 1150px;
     background-color: whitesmoke;
     top: -10px;
 }
@@ -1266,4 +1266,96 @@ header>div>nav>a:hover{
     font-size: 20px;
     left: 20px;
 
+}
+
+#contactSet{
+    position: relative;
+    background-color: darkgray;
+    top: -40px;
+    height: 1100px;
+}
+
+#conH4{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    color: #D1D0BA;
+
+}
+
+#conH1{
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    /*font-weight: bold;*/
+    font-size: 60px;
+}
+
+#conH6{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    font-size: 20px;
+    color: #D1D0BA;
+
+}
+
+#inputDiv{
+    position: absolute;
+    left: 80px;
+    width: 850px;
+    height: 600px;
+    background-color: whitesmoke;
+    top: 250px;
+    z-index: 50;
+}
+
+#name{
+    position: absolute;
+    top: 50px;
+    width: 350px;
+    height: 50px;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+
+#email{
+    position: absolute;
+    top: 50px;
+    width: 350px;
+    height: 50px;
+    left: 450px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+#subject{
+    position: absolute;
+    width: 760px;
+    height: 50px;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    top: 150px;
+}
+
+#msg{
+    position: absolute;
+    width: 760px;
+    height: 200px;
+    left: 40px;
+    top: 250px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+#sendBtn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 40px;
+    top: 500px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 20px;
+}
+
+#sendBtn:hover{
+    background-color: rgb(177,180,147);
 }
