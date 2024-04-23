@@ -1270,7 +1270,7 @@ header>div>nav>a:hover{
 
 #contactSet{
     position: relative;
-    background-color: darkgray;
+    background-color: silver;
     top: -40px;
     height: 1100px;
 }
@@ -1279,7 +1279,7 @@ header>div>nav>a:hover{
     position: absolute;
     left: 600px;
     top: 20px;
-    color: #D1D0BA;
+    color: rgb(179,177,143);
 
 }
 
@@ -1296,13 +1296,13 @@ header>div>nav>a:hover{
     left: 200px;
     top: 100px;
     font-size: 20px;
-    color: #D1D0BA;
+    color: rgb(179,177,143);
 
 }
 
 #inputDiv{
     position: absolute;
-    left: 80px;
+    left:50px;
     width: 850px;
     height: 600px;
     background-color: whitesmoke;
@@ -1358,4 +1358,47 @@ header>div>nav>a:hover{
 
 #sendBtn:hover{
     background-color: rgb(177,180,147);
+}
+
+#addS{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(177,180,147);
+    left: 930px;
+    top: 250px;
+}
+
+#addressP1{
+    position: absolute;
+    left: 1040px;
+    top: 240px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#addressP2{
+    position: absolute;
+    left: 1040px;
+    top: 270px;
+    font-weight: bold;
+    font-size: 20px;
+   color: rgb(179,177,143);
+}
+
+#addressImg{
+    position: absolute;
+    left: 955px;
+    top: 275px;
+}
+
+#phoneS{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(177,180,147);
+    left: 930px;
+    top: 400px;
 }
