@@ -1272,7 +1272,7 @@ header>div>nav>a:hover{
     position: relative;
     background-color: silver;
     top: -40px;
-    height: 1100px;
+    height: 950px;
 }
 
 #conH4{
@@ -1401,4 +1401,60 @@ header>div>nav>a:hover{
     background-color: rgb(177,180,147);
     left: 930px;
     top: 400px;
+}
+
+#phoneImg{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+#phoneP1{
+    position: absolute;
+    left: 1040px;
+    top: 390px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#phoneP2{
+    position: absolute;
+    left: 1040px;
+    top: 420px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(179,177,143);
+}
+
+#emailS{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rgb(177,180,147);
+    left: 930px;
+    top: 550px;
+}
+
+#emailImg{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+#emailP1{
+    position: absolute;
+    left: 1040px;
+    top: 540px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#emailP2{
+    position: absolute;
+    left: 1040px;
+    top: 570px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(179,177,143);
 }
