@@ -1153,9 +1153,9 @@ header>div>nav>a:hover{
 
 #projectDiv{
     position: relative;
-    height: 900px;
+    height: 1200px;
     background-color: whitesmoke;
-    top: -40px;
+    top: -10px;
 }
 
 #proH4{
@@ -1181,3 +1181,89 @@ header>div>nav>a:hover{
     color: rgb(179,177,143);
 }
 
+#imsMvcImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+
+}
+
+#mvc{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    top: 170px;
+}
+
+#lyd{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    top: 170px;
+    left: 440px;
+}
+
+#imsLimg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+#game{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    top: 170px;
+    left: 880px;
+}
+
+#gameImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+#chat{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    top: 610px;
+    left: 200px;
+}
+
+#chatImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+#hotel{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    top: 610px;
+    left: 660px;
+}
+
+#hotelImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+#imsMvcH6{
+    position: absolute;
+}
+
+#imsMvcImg:hover #imsMvcH6 {
+    z-index: 100;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+
+}
