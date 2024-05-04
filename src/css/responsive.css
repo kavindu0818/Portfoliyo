@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
     #hed {
         position: static; /* Change from fixed to static for normal flow */
         z-index: auto; /* Reset z-index */
@@ -6,15 +6,14 @@
 
     #navDiv {
         position: relative; /* Change to relative for normal flow */
-        width: 100%; /* Make width fluid */
+        /*width: 100%; !* Make width fluid *!*/
+        height: 90px;
+        background-color: black;
+        top: 0px;
+        display: flex;
     }
 
-    #imgNav {
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: auto; /* Adjust width dynamically */
-    }
+
 
     #nav {
         position: absolute;
@@ -29,82 +28,85 @@
         bottom: auto; /* Reset bottom position */
     }
 
+    #imgNav{
+        position: absolute;
+        display: none;
+        right: 0px;
+        top: 0px;
+        width: 800px;
+        z-index: 100;
+    }
+
     #pback5 {
         position: absolute;
-        right: 0;
-        bottom: 0;
-        width: auto; /* Adjust width dynamically */
+        display: none;
+        right: 700px;
+        bottom: 0px;
+        /*width: 90px;*/
+        z-index: 0;
+        /*height: 120px;*/
     }
+
+    #tag {
+        position: absolute;
+        font-style: normal;
+        font-size: 50px;
+        left: 30px;
+        bottom: -30px;
+        z-index: 50;
+    }
+
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
     #pro {
         position: relative;
         height: 530px;
-        background-color: white;
-        max-width: 100%; /* Make width fluid */
-        top: 90px;
-    }
-
-    #pback1 {
-        position: absolute;
-        left: 50%; /* Center horizontally */
-        transform: translateX(-50%);
-        bottom: 0px;
-        width: 45%; /* Adjust width dynamically */
-        max-width: 600px; /* Set maximum width */
-    }
-
-    #pback2 {
-        position: absolute;
-        right: 0px;
+        background-color: #D9D9D9;
+        /*width: 100%; !* Make width fluid *!*/
         top: 0px;
-        height: 530px;
-        width: 50%; /* Adjust width dynamically */
-        max-width: 755px; /* Set maximum width */
-    }
-
-    #pback3 {
-        position: absolute;
-        right: 100px; /* Center horizontally */
-        transform: translateX(50%);
-        bottom: 0px;
     }
 
         #profile {
             position: absolute;
-            right: 100px; /* Center horizontally */
+           left: 40vw;
+            /*right: 100px; !* Center horizontally *!*/
             z-index: 100;
-            bottom: 10px;
+            bottom: 0vh;
+            /*top: 10vh;*/
         }
 
 
 
     #p1 {
         position: absolute;
-        font-size: 50px; /* Adjust font size */
-        bottom: 250px;
-        z-index: 100;
+        color: white;
+        font-size: 70px; /* Adjust font size */
+        bottom: 180px;
+        z-index: 110;
         font-weight: bold;
-        left: 10px;
+        left: 10vw;
     }
 
     #p2 {
         position: absolute;
-        font-size: 30px; /* Adjust font size */
-        bottom: 240px;
-        z-index: 100;
+        font-size: 50px; /* Adjust font size */
+        bottom: 150px;
+        z-index: 110;
         font-weight: bold;
-        left: 10px;
+        left: 10vw;
+        color: white;
     }
 
     #btn1 {
         position: absolute;
-        bottom: 200px;
-        left: 20px;
-        height: 30px;
+        bottom: 140px;
+        left: 65vw;
+        height: 40px;
         background-color: #D1D0BA;
         font-weight: bold;
+        z-index: 110;
+        width: 120px;
         /*border-bottom-left-radius: 10px;*/
     }
 
@@ -112,6 +114,35 @@
         position: absolute;
         bottom: 200px;
         left: 100px;
-        height: 30px;
+        height: 40px;
+        left: 100vw;
+        width: 120px;
+        z-index: 110;
+        bottom: 140px;
     }
+
+    #pback1{
+        position: absolute;
+        display: none;
+        left: 500px;
+        bottom: 0px;
+        width: 600px;
+    }
+
+    #pback2{
+        position: absolute;
+        display: none;
+        right: 0px;
+        top: 0px;
+        height: 530px;
+        width: 755px;
+    }
+
+    #pback3{
+        position: absolute;
+        display: none;
+        right: 450px;
+        bottom: 0px;
+    }
+
 }

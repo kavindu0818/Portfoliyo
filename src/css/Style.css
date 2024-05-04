@@ -1458,3 +1458,44 @@ header>div>nav>a:hover{
     font-size: 20px;
     color: rgb(179,177,143);
 }
+
+#footerSet{
+    position: relative;
+    height: 200px;
+    top: -40px;
+    background-color: rgb(35,41,49);
+}
+
+#myName{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+#insta {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#whatsapp{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+
+#fb{
+    position: absolute;
+    right: 140px;
+    top: 20px;
+}
+
+#last{
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    font-size: 20px;
+    color: white;
+}
