@@ -678,4 +678,373 @@
     }
 
 
+
+
+    #serviceSet{
+        position: relative;
+        height: 2600px;
+        background-color:whitesmoke;
+        width: 200vw;
+        top: 12px;
+    }
+
+    #serviceH4{
+        position: absolute;
+        left: 350px;
+        color: rgb(179,177,143);
+    }
+
+    #serviceH1 {
+        position: absolute;
+        left: 73vw;
+        font-size: 60px;
+    }
+
+    #serviceH6{
+        position: absolute;
+        left: 12vw;
+        font-size: 15px;
+        top: 80px;
+        /*display: none;*/
+    }
+
+    #wdDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 40vw;
+        top: 180px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #wdS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #wdH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+    #wdP{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #wdDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #wdDiv:hover #wdS {
+        background-color: whitesmoke;
+    }
+
+    #waDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 0vw;
+        top: 200vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #wbdDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 38vw;
+        top: 65vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #wbdS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #wbdH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+
+    #wbdp{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #wbdDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #wbdDiv:hover #wbdS {
+        background-color: whitesmoke;
+    }
+
+
+    #waDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 35vw;
+        top: 109vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #waS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #waH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+
+    #waP{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #waDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #waDiv:hover #waS {
+        background-color: whitesmoke;
+    }
+
+
+    #logDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20vw;
+        left: 20vw;
+        top: 145vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #logS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #logH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+
+    #logP{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #logDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #logDiv:hover #logS {
+        background-color: whitesmoke;
+    }
+
+    #banDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 35vw;
+        top: 195vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #banS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #banH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+
+    #banP{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #banDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #banDiv:hover #banS {
+        background-color: whitesmoke;
+    }
+
+    #preDiv{
+        position: absolute;
+        width: 100vw;
+        height: 30vh;
+        margin: 20px;
+        left: 35vw;
+        top: 238vh;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #preS{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        top: -50px;
+        left: 20px;
+        background-color: rgb(177,180,147);
+    }
+
+    #preH3{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+        top: 40px;
+        font-weight: bolder;
+    }
+
+
+    #preP{
+        position: absolute;
+        margin: 20px;
+        top: 100px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(215,215,215);
+    }
+
+    #preDiv:hover {
+        background-color: rgb(177, 180, 147);
+    }
+
+    #preDiv:hover #preS {
+        background-color: whitesmoke;
+    }
+
+    #sI1{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    #sI2{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #sI3{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #sI4{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #sI5{
+        position: absolute;
+        left: 10px;
+        top: 5px;
+
+    }
+
+    #sI6{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        width: 70px;
+        height: 70px;
+    }
+
+
 }
