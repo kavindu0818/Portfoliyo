@@ -236,6 +236,16 @@ header>div>nav>a:hover{
     width: 1350px;
     top: 54px;
 }
+
+#ira1{
+    position: absolute;
+    display: none;
+}
+
+#ira2{
+    position: absolute;
+    display: none;
+}
 #profile2{
     position: absolute;
     height: 500px;

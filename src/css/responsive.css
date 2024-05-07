@@ -254,4 +254,428 @@
 
     }
 
+
+
+    #about{
+        position: relative;
+        height: 600px;
+        background-color: white;
+        /*width: 1350px;*/
+        top: 54px;
+    }
+
+    #profile2{
+        position: absolute;
+        height: 500px;
+        width: 400px;
+        bottom: 30px;
+        left: 50px;
+        margin: 20px;
+        display: none;
+    }
+
+    #intro{
+        position: absolute;
+        left: 40px;
+        top: 10px;
+        font-size: 20px;
+        color: #B3B18F;
+    }
+    #me{
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        font-size: 50px;
+    }
+
+    #dis{
+        position: absolute;
+        left: 40px;
+        top: 130px;
+        margin-right: 600px;
+    }
+
+    #ul{
+        position: absolute;
+        left: 40px;
+        top: 240px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "Arial Narrow";
+    }
+
+    #ellips4{
+        position: absolute;
+        left: 40px;
+        top: 410px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    #icon4{
+        position: absolute;
+        left: 44px;
+        top: 413px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+
+    #pa1{
+        position: absolute;
+        left: 100px;
+        top: 398px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+    #ira1{
+        position: absolute;
+        display: block;
+        left: 200px;
+        top: 390px;
+    }
+
+    #ellips5{
+        position: absolute;
+        left: 250px;
+        top: 410px;
+        width: 40px;
+        height: 40px;
+
+    }
+    #icon3{
+        position: absolute;
+        left: 253px;
+        top: 415px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+
+    #pa2{
+        position: absolute;
+        left: 310px;
+        top: 400px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    #ellips6{
+        position: absolute;
+        left: 40px;
+        top: 480px;
+        width: 40px;
+        height: 40px;
+    }
+    #icon2{
+        position: absolute;
+        left: 45px;
+        top: 484px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+    #pa3 {
+        position: absolute;
+        left: 100px;
+        top: 465px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #ira2{
+        position: absolute;
+        display: block;
+        left: 200px;
+        top: 455px;
+    }
+    #ellips7{
+        position: absolute;
+        left: 250px;
+        top: 480px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #icon1{
+        position: absolute;
+        left: 255px;
+        top: 485px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+    #pa{
+        position: absolute;
+        left: 315px;
+        top: 470px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+
+    #skillSet{
+        position: relative;
+        height: 850px;
+        background-color: rgb(169,169,169);
+        /*width: 1350px;*/
+        top: 33px;
+
+    }
+    #skillH4{
+        position: absolute;
+        left: 90vw;
+        color: #D1D0BA;
+
+    }
+
+    #skillH1{
+        position: absolute;
+        /*align-content: center;*/
+        left: 75vw;
+        font-weight: bolder;
+        top: 2vh;
+        font-size: 50px;
+    }
+
+    #skillP{
+        position: absolute;
+        top: 120px;
+        left: 250px;
+        font-size: 20px;
+        display: none;
+    }
+
+    #htmlDiv{
+        position: absolute;
+        left: 30px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 130px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #html{
+        position: absolute;
+        /*left: 40px;*/
+        width: 40vw;
+        height: 15vh;
+        margin: 20px;
+        top: 25px;
+        left: 0px;
+    }
+
+    #htmlH5{
+        position: absolute;
+        font-size: 20px;
+        left: 75px;
+        top: -10px;
+    }
+
+    #cssDiv{
+        position: absolute;
+        left: 260px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 130px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #css{
+        position: absolute;
+        /*left: 40px;*/
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        top: 20px;
+        left: 10px;
+    }
+
+    #cssH5{
+        position: absolute;
+        font-size: 20px;
+        left: 80px;
+        top: -10px;
+    }
+
+    #jsDiv{
+        position: absolute;
+        left: 490px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 130px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #js{
+        position: absolute;
+        /*left: 40px;*/
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        top: 13px;
+        left: 5px;
+    }
+
+    #jsH5{
+        position: absolute;
+        font-size: 20px;
+        left: 90px;
+        top: -10px;
+    }
+
+    #mysqlDiv{
+        position: absolute;
+        left: 30px;
+        /*left: 985px;*/
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 330px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #mysql{
+        position: absolute;
+        /*left: 40px;*/
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        top: 25px;
+        left: 5px;
+    }
+
+    #mysqlH5{
+        position: absolute;
+        font-size: 20px;
+        left: 70px;
+        top: -10px;
+    }
+
+    #hybernrtDiv{
+        position: absolute;
+        left: 30px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 530px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #hybernet{
+        position: absolute;
+        /*left: 40px;*/
+        width: 130px;
+        height: 90px;
+        margin: 20px;
+        top: 50px;
+        left: 20px;
+    }
+
+    #hybernetH5{
+        position: absolute;
+        font-size: 20px;
+        left: 70px;
+        top: -10px;
+    }
+
+    #springDiv{
+        position: absolute;
+        left: 260px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 330px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #spring{
+        position: absolute;
+        /*left: 40px;*/
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        top: 15px;
+        left: 10px;
+    }
+
+    #springH5{
+        position: absolute;
+        font-size: 20px;
+        left: 50px;
+        top: -10px;
+    }
+
+    #reactDiv{
+        position: absolute;
+        left: 490px;
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 330px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #react{
+        position: absolute;
+        /*left: 40px;*/
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+        top: 25px;
+        left: 30px;
+    }
+
+    #reactH5{
+        position: absolute;
+        font-size: 20px;
+        left: 100px;
+        top: -10px;
+    }
+
+    #figmaDiv{
+        position: absolute;
+         left: 260px;
+        /*left: 985px;*/
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 30px;
+        top: 530px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    #figma{
+        position: absolute;
+        /*left: 40px;*/
+        width: 130px;
+        height: 110px;
+        margin: 20px;
+        top: 30px;
+        left: 20px;
+    }
+
+    #figmaH5{
+        position: absolute;
+        font-size: 20px;
+        left: 75px;
+        top: -10px;
+    }
+
+
 }
