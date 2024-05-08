@@ -699,6 +699,12 @@
         font-size: 60px;
     }
 
+    #sm{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     #serviceH6{
         position: absolute;
         left: 12vw;
@@ -759,7 +765,7 @@
         height: 30vh;
         margin: 20px;
         left: 0vw;
-        top: 350vh;
+        top: 360vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -769,7 +775,7 @@
         height: 50vh;
         margin: 20px;
         left: 38vw;
-        top: 105vh;
+        top: 110vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -817,7 +823,7 @@
         height: 50vh;
         margin: 20px;
         left: 35vw;
-        top: 175vh;
+        top: 180vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -865,7 +871,7 @@
         height: 50vh;
         margin: 20vw;
         left: 20vw;
-        top: 240vh;
+        top: 238vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -912,7 +918,7 @@
         height: 50vh;
         margin: 20px;
         left: 35vw;
-        top: 325vh;
+        top: 320vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -959,7 +965,7 @@
         height: 50vh;
         margin: 20px;
         left: 35vw;
-        top: 400vh;
+        top: 390vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -1213,7 +1219,7 @@
 
     #projectDiv{
         position: relative;
-        height: 2350px;
+        height: 1500px;
         background-color: whitesmoke;
         width: 200vw;
         top: 10px;
@@ -1254,7 +1260,7 @@
         width: 120vw;
         height: 40vh;
         margin: 30px;
-        top: 170px;
+        top: 40vh;
         left: 28vw;
     }
 
@@ -1263,7 +1269,7 @@
         width: 120vw;
         height: 40vh;
         margin: 30px;
-        top: 65vh;
+        top: 85vh;
         left: 28vw;
     }
 
@@ -1278,7 +1284,7 @@
         width: 120vw;
         height: 30vh;
         margin: 30px;
-        top: 111vh;
+        top: 130vh;
         left: 28vw;
     }
 
@@ -1293,7 +1299,7 @@
         width: 120vw;
         height: 40vh;
         margin: 30px;
-        top: 157vh;
+        top: 175vh;
         left: 28vw;
     }
 
@@ -1308,7 +1314,7 @@
         width: 120vw;
         height: 40vh;
         margin: 30px;
-        top: 203vh;
+        top: 220vh;
         left: 28vw;
     }
 
@@ -1337,7 +1343,7 @@
     #contactSet{
         position: relative;
         background-color: silver;
-        top: -40px;
+        top: 2vh;
         height: 950px;
         width: 100%;
     }
