@@ -1207,7 +1207,128 @@
         border: 1px solid black;
         border-radius: 100px;
         bottom: 20px;
-        left: 650px;
+        left: 90vw;
+    }
+
+
+
+    #projectDiv{
+        position: relative;
+        height: 2350px;
+        background-color: whitesmoke;
+        width: 200vw;
+        top: 10px;
+    }
+
+    #proH4{
+        position: absolute;
+        left: 75vw;
+        font-size: 17px;
+        color: rgb(179,177,143);
+    }
+
+    #proH1{
+        position: absolute;
+        left: 65vw;
+        font-size: 50px;
+        font-weight: bold;
+        top: 20px;
+    }
+
+    #proH6{
+        position: absolute;
+        left: 20px;
+        font-size: 13px;
+        top: 100px;
+        color: rgb(179,177,143);
+    }
+
+    #imsMvcImg{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+
+    }
+
+    #mvc{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+        margin: 30px;
+        top: 170px;
+        left: 28vw;
+    }
+
+    #lyd{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+        margin: 30px;
+        top: 65vh;
+        left: 28vw;
+    }
+
+    #imsLimg{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+    }
+
+    #game{
+        position: absolute;
+        width: 120vw;
+        height: 30vh;
+        margin: 30px;
+        top: 111vh;
+        left: 28vw;
+    }
+
+    #gameImg{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+    }
+
+    #chat{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+        margin: 30px;
+        top: 157vh;
+        left: 28vw;
+    }
+
+    #chatImg{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+    }
+
+    #hotel{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+        margin: 30px;
+        top: 203vh;
+        left: 28vw;
+    }
+
+    #hotelImg{
+        position: absolute;
+        width: 120vw;
+        height: 40vh;
+    }
+
+    #imsMvcH6{
+        position: absolute;
+    }
+
+    #imsMvcImg:hover #imsMvcH6 {
+        z-index: 100;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+
     }
 
 
