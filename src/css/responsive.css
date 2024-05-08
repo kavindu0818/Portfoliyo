@@ -1046,5 +1046,169 @@
         height: 70px;
     }
 
+/*==========================================================================================*/
+
+    #assignmentSet{
+        position: relative;
+        height: 1200px;
+        background-color: rgb(169,169,169);
+        width: 200vw;
+        top: 10px;
+    }
+
+    #AssH1{
+        position: absolute;
+        left: 65vw;
+        font-size: 50px;
+    }
+
+    #assH6{
+        position: absolute;
+        font-size: 20px;
+        left: 150px;
+        top: 60px;
+        display: none;
+    }
+
+    #oopDiv{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 170px;
+        left: 10vw;
+        background-color: rgb(217,217,217);
+    }
+
+    #oopDiv:hover{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 170px;
+        left: 10vw;
+        background-color: rgb(177,180,147);
+    }
+
+    #oopH3 {
+        position: absolute;
+        left: 48vw;
+        font-size: 25px;
+
+    }
+
+    #oopImg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 75vw;
+        top: 80px;
+    }
+
+    #seDiv{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 400px;
+        left: 10vw;
+        background-color: rgb(217,217,217);
+    }
+
+    #seDiv:hover{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 400px;
+        left: 10vw;
+        background-color: rgb(177,180,147);
+    }
+
+
+    #seH3{
+        position: absolute;
+        left: 48vw;
+        font-size: 25px;
+    }
+
+    #seImg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 70vw;
+        top: 80px;
+    }
+
+    #ormDiv{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 630px;
+        left: 10vw;
+        background-color: rgb(217,217,217);
+    }
+
+    #ormDiv:hover{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 630px;
+        left: 10vw;
+        background-color: rgb(177, 180, 147);
+    }
+
+    #ormH3{
+        position: absolute;
+        left: 48vw;
+        font-size: 25px;
+    }
+
+    #ormImg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 75vw;
+        top: 80px;
+    }
+
+    #itDiv{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 860px;
+        left: 10vw;
+        background-color:  rgb(217,217,217);
+    }
+
+    #itDiv:hover {
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 860px;
+        left: 10vw;
+        background-color: rgb(177, 180, 147);
+    }
+
+    #itH3{
+        position: absolute;
+        left: 56vw;
+        font-size: 25px;
+    }
+
+    #itImg{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 73vw;
+        top: 80px;
+    }
+
+    #downBtn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 100px;
+        bottom: 20px;
+        left: 650px;
+    }
+
 
 }
