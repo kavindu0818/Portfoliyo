@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../css/Style.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../Assest/css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 
 </head>
 <body>
@@ -31,7 +37,7 @@
 <section  id="pro">
     <div>
 
-        <p id="p1">Hi,i am Kavindu This is</p> <br>
+        <p id="p1" data-aos="fade-right">Hi,i am Kavindu This is</p> <br>
         <p id="p2">my favourite work</p>
     </div>
 
@@ -86,7 +92,7 @@
     <div>
 
         <h3 id="intro">MY INTRO</h3>
-        <h1 id="me">About me</h1>
+        <h1 id="me" class="animate__animated animate__bounce">About me</h1>
         <p id="dis">Hello! I'm Kavindu Madhuranga Wijerathna, a passionate software engineering student at IJSE (INSTUTITUE OF SOFTWARE ENGEINEERING). Course ID GDSE 67 from Sri Lanka.
             I am deeply fascinated by the world of technology and its endless possibilities.
             My journey into software engineering began with a curiosity to understand how things work behind the screen, <br>
@@ -106,8 +112,8 @@
     </div>
 
 
-    <div>
-        <img id="profile2" src="../Assest/ProfileImage2.jpg">
+    <div >
+        <img id="profile2" src="../Assest/ProfileImage2.jpg" data-aos="flip-up">
     </div>
 
     <div>
@@ -143,6 +149,7 @@
         <h1 id="skillH1">My Skills</h1>
         <p id="skillP">Versatile professional with expertise in [list of skills]. Proven track record of delivering impactful results.</p>
     </div>
+<!--    <div data-aos="zoom-in-up"></div>-->
 
      <div id="htmlDiv">
          <img src="../Assest/Skills/HTML.png" id="html">
@@ -359,7 +366,11 @@
     </div>
 
 </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
 
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

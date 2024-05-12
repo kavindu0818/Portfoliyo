@@ -151,7 +151,7 @@
         position: relative;
         height: 400px;
         top: 0px;
-        width: 1350px;
+        /*width: 1350px;*/
         background-color: #F8F9FA;
     }
 
@@ -683,7 +683,7 @@
         position: relative;
         height: 2600px;
         background-color:whitesmoke;
-        width: 250vw;
+        /*width: 250vw;*/
         top: 8vh;
     }
 
