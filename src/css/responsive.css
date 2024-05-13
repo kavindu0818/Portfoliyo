@@ -481,7 +481,7 @@
 
     #skillSet{
         position: relative;
-        height: 850px;
+        height: 900px;
         background-color: rgb(169,169,169);
         width: 100%;
         top: 33px;
@@ -515,7 +515,7 @@
     #htmlDiv{
         position: absolute;
         left: 6vw;
-        width: 30vw;
+        width: 33vw;
         height: 150px;
         border: 1px solid black;
         margin: 30px;
@@ -542,8 +542,8 @@
 
     #cssDiv{
         position: absolute;
-        left: 48vw;
-        width: 30vw;
+        left: 46vw;
+        width: 33vw;
         height: 150px;
         border: 1px solid black;
         margin: 30px;
@@ -570,171 +570,172 @@
 
     #jsDiv{
         position: absolute;
-        left: 115vw;
-        width: 50vw;
-        height: 30vh;
+        left: 6vw;
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 25vh;
+        top: 660px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #js{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 5vw;
+        top: 20px;
+        left: 2vw;
     }
 
     #jsH5{
         position: absolute;
-        font-size: 20px;
-        left: 90px;
-        top: -10px;
+        font-size: 15px;
+        left: 13vw;
+        top: 17px;
     }
 
     #mysqlDiv{
         position: absolute;
         left: 6vw;
         /*left: 985px;*/
-        width: 50vw;
-        height: 30vh;
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 60vh;
+        top: 320px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #mysql{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 5vw;
+        top: 20px;
+        left: 0vw;
     }
 
     #mysqlH5{
         position: absolute;
-        font-size: 20px;
-        left: 70px;
-        top: -10px;
+        font-size: 15px;
+        left: 10vw;
+        top: 17px;
     }
 
     #hybernrtDiv{
         position: absolute;
         left: 6vw;
-        width: 50vw;
-        height: 30vh;
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 95vh;
+        top: 490px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #hybernet{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 15vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 7vh;
-        left: 5vw;
+        top: 20px;
+        left: 2vw;
     }
 
     #hybernetH5{
         position: absolute;
-        font-size: 20px;
-        left: 70px;
-        top: -10px;
+        font-size: 15px;
+        left: 10vw;
+        top: 17px;
+        font-weight: bold;
     }
 
     #springDiv{
         position: absolute;
-        left: 61vw;
-        width: 50vw;
-        height: 30vh;
+        left: 46vw;
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 60vh;
+        top: 320px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #spring{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 5vw;
+        top: 20px;
+        left: 0vw;
     }
 
     #springH5{
         position: absolute;
-        font-size: 20px;
-        left: 50px;
-        top: -10px;
+        font-size: 15px;
+        left: 6vw;
+        top: 17px;
     }
 
     #reactDiv{
         position: absolute;
-        left: 115vw;
-        width: 50vw;
-        height: 30vh;
+        left: 46vw;
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 60vh;
+        top: 660px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #react{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 5vw;
+        top: 20px;
+        left: 2vw;
     }
 
     #reactH5{
         position: absolute;
-        font-size: 20px;
-        left: 18vw;
-        top: -2vh;
+        font-size: 15px;
+        left: 12vw;
+        top: 17px;
     }
 
     #figmaDiv{
         position: absolute;
-         left: 61vw;       /*left: 985px;*/
-        width: 50vw;
-        height: 30vh;
+         left: 46vw;       /*left: 985px;*/
+        width: 33vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 95vh;
+        top: 490px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #figma{
         position: absolute;
         /*left: 40px;*/
-        width: 130px;
-        height: 110px;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 30px;
-        left: 20px;
+        top: 20px;
+        left: 2vw;
     }
 
     #figmaH5{
         position: absolute;
-        font-size: 20px;
-        left: 75px;
-        top: -10px;
+        font-size: 15px;
+        left: 10vw;
+        top: 17px;
     }
 
 
@@ -742,45 +743,46 @@
 
     #serviceSet{
         position: relative;
-        height: 2600px;
+        height: 2500px;
         background-color:whitesmoke;
         width: 100%;
-        top: 8vh;
+        top: 10px;
     }
 
     #serviceH4{
         position: absolute;
-        left: 350px;
+        left: 33vw;
         color: rgb(179,177,143);
+        top: 15px;
     }
 
     #serviceH1 {
         position: absolute;
-        left: 73vw;
-        font-size: 60px;
+        left: 23vw;
+        font-size: 50px;
     }
 
     #sm{
         position: absolute;
-        left: 50%;
+        left: 0vw;
         transform: translate(-50%, -50%);
     }
 
     #serviceH6{
         position: absolute;
-        left: 12vw;
-        font-size: 15px;
+        left: 0vw;
+        font-size: 13px;
         top: 80px;
-        /*display: none;*/
+        display: none;
     }
 
     #wdDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 40vw;
-        top: 40vh;
+        left: 5vw;
+        top: 140px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -796,16 +798,16 @@
 
     #wdH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 10vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
     #wdP{
         position: absolute;
         margin: 20px;
-        top: 100px;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -822,21 +824,21 @@
 
     #waDiv{
         position: absolute;
-        width: 100vw;
-        height: 30vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 0vw;
+        left: 5vw;
         top: 360vh;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
     #wbdDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 38vw;
-        top: 110vh;
+        left: 5vw;
+        top: 530px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -852,9 +854,9 @@
 
     #wbdH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 20vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
@@ -862,7 +864,7 @@
     #wbdp{
         position: absolute;
         margin: 20px;
-        top: 100px;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -880,11 +882,11 @@
 
     #waDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 35vw;
-        top: 180vh;
+        left: 5vw;
+        top: 920px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -900,9 +902,9 @@
 
     #waH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 13vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
@@ -910,7 +912,7 @@
     #waP{
         position: absolute;
         margin: 20px;
-        top: 100px;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -928,11 +930,11 @@
 
     #logDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
-        margin: 20vw;
-        left: 20vw;
-        top: 238vh;
+        width: 80vw;
+        height: 300px;
+        margin: 20px;
+        left: 5vw;
+        top: 1310px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -948,9 +950,9 @@
 
     #logH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 18vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
@@ -958,7 +960,7 @@
     #logP{
         position: absolute;
         margin: 20px;
-        top: 100px;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -975,11 +977,11 @@
 
     #banDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 35vw;
-        top: 320vh;
+        left: 5vw;
+        top: 1700px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -995,9 +997,9 @@
 
     #banH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 18vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
@@ -1005,7 +1007,7 @@
     #banP{
         position: absolute;
         margin: 20px;
-        top: 20vh;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -1022,11 +1024,11 @@
 
     #preDiv{
         position: absolute;
-        width: 100vw;
-        height: 50vh;
+        width: 80vw;
+        height: 300px;
         margin: 20px;
-        left: 35vw;
-        top: 390vh;
+        left: 5vw;
+        top: 2090px;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
@@ -1042,9 +1044,9 @@
 
     #preH3{
         position: absolute;
-        left: 30px;
-        font-size: 30px;
-        top: 40px;
+        left: 10vw;
+        font-size: 25px;
+        top: 60px;
         font-weight: bolder;
     }
 
@@ -1052,7 +1054,7 @@
     #preP{
         position: absolute;
         margin: 20px;
-        top: 100px;
+        top: 75px;
         left: 20px;
         font-weight: bolder;
         font-size: 20px;
@@ -1116,16 +1118,16 @@
 
     #assignmentSet{
         position: relative;
-        height: 1200px;
+        height: 1000px;
         background-color: rgb(169,169,169);
-        width: 200vw;
+        width: 100%;
         top: 10px;
     }
 
     #AssH1{
         position: absolute;
-        left: 65vw;
-        font-size: 50px;
+        left: 25vw;
+        font-size: 40px;
     }
 
     #assH6{
@@ -1138,9 +1140,9 @@
 
     #oopDiv{
         position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 170px;
+        width: 80vw;
+        height: 150px;
+        top: 100px;
         left: 10vw;
         background-color: rgb(217,217,217);
     }
@@ -1156,24 +1158,25 @@
 
     #oopH3 {
         position: absolute;
-        left: 48vw;
-        font-size: 25px;
+        left: 5vw;
+        font-size: 20px;
+        top: 10px;
 
     }
 
     #oopImg{
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 75vw;
-        top: 80px;
+        width: 20vw;
+        height: 50px;
+        left: 30vw;
+        top: 60px;
     }
 
     #seDiv{
         position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 400px;
+        width: 80vw;
+        height: 150px;
+        top: 300px;
         left: 10vw;
         background-color: rgb(217,217,217);
     }
@@ -1190,23 +1193,24 @@
 
     #seH3{
         position: absolute;
-        left: 48vw;
-        font-size: 25px;
+        left: 13vw;
+        font-size: 20px;
+        top: 10px;
     }
 
     #seImg{
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 70vw;
-        top: 80px;
+        width: 20vw;
+        height: 50px;
+        left: 30vw;
+        top: 60px;
     }
 
     #ormDiv{
         position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 630px;
+        width: 80vw;
+        height: 150px;
+        top: 500px;
         left: 10vw;
         background-color: rgb(217,217,217);
     }
@@ -1222,23 +1226,24 @@
 
     #ormH3{
         position: absolute;
-        left: 48vw;
-        font-size: 25px;
+        left: 5vw;
+        font-size: 20px;
+        top: 10px;
     }
 
     #ormImg{
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 75vw;
-        top: 80px;
+        width: 20vw;
+        height: 50px;
+        left: 30vw;
+        top: 60px;
     }
 
     #itDiv{
         position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 860px;
+        width: 80vw;
+        height: 150px;
+        top: 700px;
         left: 10vw;
         background-color:  rgb(217,217,217);
     }
@@ -1254,30 +1259,31 @@
 
     #itH3{
         position: absolute;
-        left: 56vw;
-        font-size: 25px;
+        left: 15vw;
+        font-size: 20px;
+        top: 10px;
     }
 
     #itImg{
         position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 73vw;
-        top: 80px;
+        width: 20vw;
+        height: 50px;
+        left: 30vw;
+        top: 60px;
     }
 
     #downBtn{
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: 10vw;
+        height: 40px;
         border: 1px solid black;
         border-radius: 100px;
-        bottom: 20px;
-        left: 90vw;
+        bottom: 40px;
+        left: 45vw;
     }
 
 
-
+/*==================================PROJECT=========================================================*/
     #projectDiv{
         position: relative;
         height: 1500px;
@@ -1288,14 +1294,15 @@
 
     #proH4{
         position: absolute;
-        left: 75vw;
+        left: 30vw;
+        top: 20px;
         font-size: 17px;
         color: rgb(179,177,143);
     }
 
     #proH1{
         position: absolute;
-        left: 65vw;
+        left: 20vw;
         font-size: 50px;
         font-weight: bold;
         top: 20px;
@@ -1307,6 +1314,7 @@
         font-size: 13px;
         top: 100px;
         color: rgb(179,177,143);
+        display: none;
     }
 
     #imsMvcImg{
