@@ -13,6 +13,9 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-QaIMVdj4PpC3ynDdIaFpnt5EYL0DwblBzGwAsd5z+YmApTImP8fzVc+R2AE24pFe" crossorigin="anonymous">
+
+
 
 </head>
 <body>
@@ -22,23 +25,25 @@
         <p id="tag" aria-setsize="5">KMW</p>
         <img id="imgNav" src="../Assest/main/Polygon6.png">
         <img id="pback5" src="../Assest/main/Polygo3.png">
-         <nav id="nav">
-             <a href="">Home</a>
-             <a href="#about">About me</a>
-             <a href="#skillSet">Skills</a>
-             <a href="#serviceSet">Services</a>
-             <a href="#assignmentSet">Assignment</a>
-             <a href="#projectDiv">Project</a>
-             <a href="#contactSet">Contact</a>
-         </nav>
+        <nav id="nav">
+            <a href="">Home</a>
+            <a href="#about">About me</a>
+            <a href="#skillSet">Skills</a>
+            <a href="#serviceSet">Services</a>
+            <a href="#assignmentSet">Assignment</a>
+            <a href="#projectDiv">Project</a>
+            <a href="#contactSet">Contact</a>
+            <img src="../Assest/Assignment/timeBar.svg" id="timeBar" onclick="closemenu()">
+        </nav>
+        <img src="../Assest/Assignment/menu2.png" id="menuIcon" onclick="openmenu()">
     </div>
 </header>
 
 <section  id="pro">
     <div>
 
-        <p id="p1" data-aos="fade-right">Hi,i am Kavindu This is</p> <br>
-        <p id="p2">my favourite work</p>
+        <p id="p1" data-aos="fade-right">Hi,i am <span> Kavindu Madhuranga </span></p> <br>
+        <p id="p2">Software Engineer/Web Developer</p>
     </div>
 
     <div>
@@ -370,6 +375,27 @@
 
 <script>
     AOS.init();
+</script>
+
+<script>
+    var nav = document.getElementById("nav");
+
+    function togglemenu() {
+        // Toggle the menu by changing its right position
+        if (nav.style.right === "0px") {
+            closemenu();
+        } else {
+            openmenu();
+        }
+    }
+
+    function openmenu() {
+        nav.style.left = "0";
+    }
+
+    function closemenu() {
+        nav.style.left = "-200px";
+    }
 </script>
 
 </body>

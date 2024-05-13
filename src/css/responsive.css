@@ -1,4 +1,14 @@
 @media only screen and (min-width: 320px) and (max-width: 425px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
     #hed {
         position: static; /* Change from fixed to static for normal flow */
         z-index: auto; /* Reset z-index */
@@ -6,73 +16,89 @@
 
     #navDiv {
         position: relative; /* Change to relative for normal flow */
-        /*width: 100%; !* Make width fluid *!*/
         height: 90px;
+        width: 100%;
         background-color: black;
-        top: 0px;
         display: flex;
+        align-items: center; /* Center align items vertically */
     }
 
-
-
     #nav {
-        position: absolute;
-        margin-left: 30px;
+        position: fixed;
+        background-color: black;
+        margin-left: 10px;
         right: 30px;
         font-size: 16px; /* Adjust font size */
-        top: 50px; /* Adjust positioning */
+        top: 15vh;
+        /*right: -200px;*/
+        left: -200px;
+        width: 40vw;
+        height: 400px;
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 200;/*display: none;*/
+        /* Adjust positioning to align with the top */
+    }
+
+    nav a{
+        display: block;
+        margin: 25px;
+    }
+
+    #menuIcon{
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 30px;
+        background-color: white;
+        left: 80vw;
+    }
+
+    #timeBar{
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: 20px;
+        left: 10px;
     }
 
     #tag {
-        font-size: 20px; /* Adjust font size */
-        bottom: auto; /* Reset bottom position */
+        font-size: 30px; /* Adjust font size */
+        color: white;
+        position: absolute;
+        left: 20px; /* Adjust positioning */
+        top: 60%; /* Align tag vertically */
+        transform: translateY(-50%); /* Center vertically */
     }
 
-    #imgNav{
-        position: absolute;
-        display: none;
-        right: 0px;
-        top: 0px;
-        width: 800px;
-        z-index: 100;
+    #imgNav {
+        display: none; /* Hide the image */
     }
 
     #pback5 {
-        position: absolute;
-        display: none;
-        right: 700px;
-        bottom: 0px;
-        /*width: 90px;*/
-        z-index: 0;
-        /*height: 120px;*/
+        display: none; /* Hide the image */
     }
-
-    #tag {
-        position: absolute;
-        font-style: normal;
-        font-size: 50px;
-        left: 30px;
-        bottom: -30px;
-        z-index: 50;
-    }
-
 }
+
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
     #pro {
         position: relative;
-        height: 630px;
+        height: 100vh;
         background-color: #D9D9D9;
-        /*width: 100%; !* Make width fluid *!*/
+        /*width: 100vw;*/
         top: 0px;
     }
 
         #profile {
             position: absolute;
-           left: 40vw;
+            left: 5%;
             /*right: 100px; !* Center horizontally *!*/
             z-index: 100;
             bottom: 0vh;
+             width: 80vw;
+            height: 80vh;
             /*top: 10vh;*/
         }
 
@@ -81,7 +107,7 @@
     #p1 {
         position: absolute;
         color: white;
-        font-size: 70px; /* Adjust font size */
+        font-size: 30px; /* Adjust font size */
         bottom: 180px;
         z-index: 110;
         font-weight: bold;
@@ -90,7 +116,7 @@
 
     #p2 {
         position: absolute;
-        font-size: 50px; /* Adjust font size */
+        font-size: 10px; /* Adjust font size */
         bottom: 150px;
         z-index: 110;
         font-weight: bold;
@@ -683,7 +709,7 @@
         position: relative;
         height: 2600px;
         background-color:whitesmoke;
-        /*width: 250vw;*/
+        width: 250vw;
         top: 8vh;
     }
 
