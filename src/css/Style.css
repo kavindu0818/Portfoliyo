@@ -155,6 +155,16 @@ span{
     left: 1vw;
 }
 
+#rp1{
+    position: absolute;
+    display: none;
+}
+
+#rp2{
+    position: absolute;
+    display: none;
+}
+
 #btn1{
     position: absolute;
     bottom: 13vw;

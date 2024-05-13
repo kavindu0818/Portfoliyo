@@ -85,9 +85,9 @@
 @media only screen and (min-width: 320px) and (max-width: 425px) {
     #pro {
         position: relative;
-        height: 100vh;
+        height: 400px;
         background-color: #D9D9D9;
-        /*width: 100vw;*/
+        width: 100%;
         top: 0px;
     }
 
@@ -98,7 +98,7 @@
             z-index: 100;
             bottom: 0vh;
              width: 80vw;
-            height: 80vh;
+            height: 350px;
             /*top: 10vh;*/
         }
 
@@ -107,44 +107,75 @@
     #p1 {
         position: absolute;
         color: white;
-        font-size: 30px; /* Adjust font size */
+        font-size: 40px; /* Adjust font size */
         bottom: 180px;
         z-index: 110;
         font-weight: bold;
-        left: 10vw;
+        left: 20vw;
+        display: none;
+    }
+
+    #rp1{
+        position: absolute;
+        color: white;
+        font-size: 40px; /* Adjust font size */
+        bottom: 180px;
+        z-index: 110;
+        font-weight: bold;
+        left: 35vw;
+        display: block;
+    }
+
+    #rp2{
+        position: absolute;
+        /*bottom: 10px;*/
+        top: 230px;
+        font-size: 20px;
+        left: 20vw;
+       display: block;
+        color: #B1B493;
+        z-index: 200;
+        font-weight: bold;
+    }
+
+    span{
+        position: absolute;
+        /*bottom: 10px;*/
+        top: 30px;
+        font-size: 20px;
+        left: 5vw;
+        display: flow;
     }
 
     #p2 {
         position: absolute;
-        font-size: 10px; /* Adjust font size */
-        bottom: 150px;
+        font-size: 15px; /* Adjust font size */
+        bottom: 120px;
         z-index: 110;
         font-weight: bold;
-        left: 10vw;
+        left: 22vw;
         color: white;
     }
 
     #btn1 {
         position: absolute;
-        bottom: 140px;
-        left: 65vw;
-        height: 40px;
+        bottom: 70px;
+        left: 20vw;
+        height: 30px;
         background-color: #D1D0BA;
         font-weight: bold;
         z-index: 110;
-        width: 120px;
+        width: 30VW;
         /*border-bottom-left-radius: 10px;*/
     }
 
     #btn2 {
         position: absolute;
-        bottom: 200px;
-        left: 100px;
-        height: 40px;
-        left: 100vw;
-        width: 120px;
+        bottom: 70px;
+        left: 53VW;
+        height: 30px;
+        width: 30VW;
         z-index: 110;
-        bottom: 140px;
     }
 
     #pback1{
@@ -171,122 +202,124 @@
         bottom: 0px;
     }
 
-
+/*========================================QUALITY=========================*/
 
     #quality{
         position: relative;
         height: 400px;
         top: 0px;
-        /*width: 1350px;*/
+        width: 100%;
         background-color: #F8F9FA;
     }
 
     #ellips1{
         position: absolute;
-        left: 25vw;
+        left: 15vw;
         top: 40px;
-        width: 90px;
-        height: 90px;
+        width: 20vw;
+        height: 20vw;
     }
 
     #image1{
         position: absolute;
-        left: 28vw;
-        top: 50px;
-        width: 70px;
-        height: 70px;
+        left: 20vw;
+        top: 60px;
+        width: 10vw;
+        height: 10vw;
     }
 
 
     #pp1{
         position: absolute;
-        left: 55vw;
-        top: 1vh;
-        font-size: 40px;
+        left: 40vw;
+        top: 40px;
+        font-size: 12vw;
         font-weight: bold;
 
     }
 
     #pp2{
         position: absolute;
-        left: 52vw;
-        top: 13vh;
-        font-size: 25px;
+        left: 36vw;
+        top: 85px;
+        font-size: 5vw;
         font-weight: bold;
         color: #B1B493;
     }
     #ellips2{
         position: absolute;
-        left: 25vw;
-        top: 30vh ;
-        width: 90px;
-        height: 90px;
+        left: 15vw;
+        top: 35vw;
+        width: 20vw;
+        height: 20vw;
     }
 
     #image2{
         position: absolute;
-        left: 26vw;
-        top: 160px;
+        left: 18vw;
+        top: 38vw;
+        width: 15vw;
+        height: 15vw;
     }
 
     #pp3{
         position: absolute;
-        left: 55vw;
-        top: 130px;
-        font-size: 40px;
+        left: 40vw;
+        top: 36vw;
+        font-size: 12vw;
         font-weight: bold;
     }
 
     #pp4{
         position: absolute;
-        left: 53vw;
-        top: 190px;
-        font-size: 25px;
+        left: 38vw;
+        top: 48vw;
+        font-size: 5vw;
         font-weight: bold;
         color: #B1B493;
 
     }
     #ellips3{
         position: absolute;
-         left: 25vw;
-        top: 53vh;
-        width: 90px;
-        height: 90px;
+         left: 15vw;
+        top: 60vw;
+        width: 20vw;
+        height: 20vw;
     }
 
     #image3{
         position: absolute;
-        left: 27vw;
-        top: 290px;
-        width: 70px;
-        height: 70px;
+        left: 17vw;
+        top: 62vw;
+        width: 15vw;
+        height: 15vw;
     }
 
     #pp5{
         position: absolute;
-        left: 55vw;
-        top: 250px;
-        font-size: 40px;
+        left: 40vw;
+        top: 58vw;
+        font-size: 12vw;
         font-weight: bold;
     }
 
     #pp6{
         position: absolute;
-        left: 53vw;
-        top: 310px;
-        font-size: 25px;
+        left: 38vw;
+        top: 70vw;
+        font-size: 4.7vw;
         font-weight: bold;
         color: #B1B493;
 
     }
 
-
+/*===========================About=========================================================*/
 
     #about{
         position: relative;
         height: 600px;
         background-color: white;
-        /*width: 1350px;*/
+        width: 100%;
         top: 54px;
     }
 
@@ -302,57 +335,58 @@
 
     #intro{
         position: absolute;
-        left: 40px;
-        top: 10px;
-        font-size: 20px;
+        left: 10vw;
+        top: 8px;
+        font-size: 5vw;
         color: #B3B18F;
     }
     #me{
         position: absolute;
-        left: 40px;
-        top: 40px;
-        font-size: 50px;
+        left: 10vw;
+        top: 5vw;
+        font-size: 12vw;
     }
 
     #dis{
         position: absolute;
-        left: 40px;
-        top: 130px;
-        margin-right: 600px;
+        left: 10vw;
+        top: 30vw;
+        font-size: 4vw;
+        margin-right: 10vw;
     }
 
     #ul{
         position: absolute;
-        left: 40px;
-        top: 240px;
+        left: 15vw;
+        top: 80vw;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 4vw;
         font-family: "Arial Narrow";
     }
 
     #ellips4{
         position: absolute;
-        left: 40px;
-        top: 410px;
-        width: 40px;
-        height: 40px;
+        left: 10vw;
+        top: 105vw;
+        width: 10vw;
+        height: 10vw;
 
     }
 
     #icon4{
         position: absolute;
-        left: 44px;
-        top: 413px;
-        width: 30px;
-        height: 30px;
+        left: 11vw;
+        top: 106vw;
+        width: 8vw;
+        height: 8vw;
         z-index: 100;
     }
 
     #pa1{
         position: absolute;
-        left: 100px;
-        top: 398px;
-        font-size: 20px;
+        left: 25vw;
+        top: 107vw;
+        font-size: 5vw;
         font-weight: bold;
     }
 
@@ -360,85 +394,85 @@
     #ira1{
         position: absolute;
         display: block;
-        left: 200px;
-        top: 390px;
+        left: 48vw;
+        top: 100vw;
     }
 
     #ellips5{
         position: absolute;
-        left: 250px;
-        top: 410px;
-        width: 40px;
-        height: 40px;
+        left: 60vw;
+        top: 105vw;
+        width: 10vw;
+        height: 10vw;
 
     }
     #icon3{
         position: absolute;
-        left: 253px;
-        top: 415px;
-        width: 30px;
-        height: 30px;
+        left: 61vw;
+        top: 107vw;
+        width: 8vw;
+        height: 8vw;
         z-index: 100;
     }
 
     #pa2{
         position: absolute;
-        left: 310px;
-        top: 400px;
-        font-size: 20px;
+        left: 74vw;
+        top: 107vw;
+        font-size: 5vw;
         font-weight: bold;
 
     }
 
     #ellips6{
         position: absolute;
-        left: 40px;
-        top: 480px;
-        width: 40px;
-        height: 40px;
+        left: 10vw;
+        top: 120vw;
+        width: 10vw;
+        height: 10vw;
     }
     #icon2{
         position: absolute;
-        left: 45px;
-        top: 484px;
-        width: 30px;
-        height: 30px;
+        left: 11vw;
+        top: 121vw;
+        width: 8vw;
+        height: 8vw;
         z-index: 100;
     }
     #pa3 {
         position: absolute;
-        left: 100px;
-        top: 465px;
-        font-size: 20px;
+        left: 26vw;
+        top: 122vw;
+        font-size: 5vw;
         font-weight: bold;
     }
 
     #ira2{
         position: absolute;
         display: block;
-        left: 200px;
-        top: 455px;
+        left: 48vw;
+        top: 115vw;
     }
     #ellips7{
         position: absolute;
-        left: 250px;
-        top: 480px;
-        width: 40px;
-        height: 40px;
+        left: 60vw;
+        top: 120vw;
+        width: 10vw;
+        height: 10vw;
     }
 
     #icon1{
         position: absolute;
-        left: 255px;
-        top: 485px;
-        width: 30px;
-        height: 30px;
+        left: 61vw;
+        top: 121vw;
+        width: 8vw;
+        height: 8vw;
         z-index: 100;
     }
     #pa{
         position: absolute;
-        left: 315px;
-        top: 470px;
+        left: 74vw;
+        top: 122vw;
         font-size: 20px;
         font-weight: bold;
     }
@@ -449,24 +483,25 @@
         position: relative;
         height: 850px;
         background-color: rgb(169,169,169);
-        /*width: 1350px;*/
+        width: 100%;
         top: 33px;
 
     }
     #skillH4{
         position: absolute;
-        left: 90vw;
+        left: 40vw;
         color: #D1D0BA;
+        top: 20px;
 
     }
 
     #skillH1{
         position: absolute;
         /*align-content: center;*/
-        left: 75vw;
+        left: 30vw;
         font-weight: bolder;
-        top: 2vh;
-        font-size: 50px;
+        top: 40px;
+        font-size: 40px;
     }
 
     #skillP{
@@ -480,57 +515,57 @@
     #htmlDiv{
         position: absolute;
         left: 6vw;
-        width: 50vw;
-        height: 30vh;
+        width: 30vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 25vh;
+        top: 150px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #html{
         position: absolute;
         /*left: 40px;*/
-        width: 40vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 0px;
+        top: 20px;
+        left: 0vw;
     }
 
     #htmlH5{
         position: absolute;
-        font-size: 20px;
-        left: 75px;
-        top: -10px;
+        font-size: 15px;
+        left: 9vw;
+        top: 17px;
     }
 
     #cssDiv{
         position: absolute;
-        left: 61vw;
-        width: 50vw;
-        height: 30vh;
+        left: 48vw;
+        width: 30vw;
+        height: 150px;
         border: 1px solid black;
         margin: 30px;
-        top: 25vh;
+        top: 150px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
     #css{
         position: absolute;
         /*left: 40px;*/
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 80px;
         margin: 20px;
-        top: 5vh;
-        left: 5vw;
+        top: 20px;
+        left: 0vw;
     }
 
     #cssH5{
         position: absolute;
-        font-size: 20px;
-        left: 80px;
-        top: -10px;
+        font-size: 15px;
+        left: 10vw;
+        top: 17px;
     }
 
     #jsDiv{
@@ -709,7 +744,7 @@
         position: relative;
         height: 2600px;
         background-color:whitesmoke;
-        width: 250vw;
+        width: 100%;
         top: 8vh;
     }
 
@@ -1247,7 +1282,7 @@
         position: relative;
         height: 1500px;
         background-color: whitesmoke;
-        width: 200vw;
+        width: 100%;
         top: 10px;
     }
 
@@ -1371,7 +1406,7 @@
         background-color: silver;
         top: 2vh;
         height: 950px;
-        width: 200vw;
+        width: 100%;
         /*width: 100%;*/
     }
 
