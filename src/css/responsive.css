@@ -26,6 +26,7 @@
     #nav {
         position: fixed;
         background-color: black;
+        color: white;
         margin-left: 10px;
         right: 30px;
         font-size: 16px; /* Adjust font size */
@@ -814,11 +815,13 @@
         color: rgb(215,215,215);
     }
 
-    #wdDiv:hover {
+    #wdDiv:hover,
+    #wdDiv:active {
         background-color: rgb(177, 180, 147);
     }
 
-    #wdDiv:hover #wdS {
+
+    #wdDiv:active #wdS {
         background-color: whitesmoke;
     }
 
@@ -1147,14 +1150,32 @@
         background-color: rgb(217,217,217);
     }
 
-    #oopDiv:hover{
-        position: absolute;
-        width: 170vw;
+    #oopNav{
+        position: relative;
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        right: 30px;
+        font-size: 16px; /* Adjust font size */
+        top: 110px;
+        /*right: -200px;*/
+        left: -10px;
+        width: 80vw;
         height: 200px;
-        top: 170px;
-        left: 10vw;
-        background-color: rgb(177,180,147);
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 200;
+        display: none;
     }
+
+    /*#oopDiv:hover{*/
+    /*    position: absolute;*/
+    /*    width: 170vw;*/
+    /*    height: 200px;*/
+    /*    top: 170px;*/
+    /*    left: 10vw;*/
+    /*    background-color: rgb(177,180,147);*/
+    /*}*/
 
     #oopH3 {
         position: absolute;
@@ -1181,14 +1202,14 @@
         background-color: rgb(217,217,217);
     }
 
-    #seDiv:hover{
-        position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 400px;
-        left: 10vw;
-        background-color: rgb(177,180,147);
-    }
+    /*#seDiv:hover{*/
+    /*    position: absolute;*/
+    /*    width: 170vw;*/
+    /*    height: 200px;*/
+    /*    top: 400px;*/
+    /*    left: 10vw;*/
+    /*    background-color: rgb(177,180,147);*/
+    /*}*/
 
 
     #seH3{
@@ -1215,14 +1236,14 @@
         background-color: rgb(217,217,217);
     }
 
-    #ormDiv:hover{
-        position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 630px;
-        left: 10vw;
-        background-color: rgb(177, 180, 147);
-    }
+    /*#ormDiv:hover{*/
+    /*    position: absolute;*/
+    /*    width: 170vw;*/
+    /*    height: 200px;*/
+    /*    top: 630px;*/
+    /*    left: 10vw;*/
+    /*    background-color: rgb(177, 180, 147);*/
+    /*}*/
 
     #ormH3{
         position: absolute;
@@ -1248,14 +1269,14 @@
         background-color:  rgb(217,217,217);
     }
 
-    #itDiv:hover {
-        position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 860px;
-        left: 10vw;
-        background-color: rgb(177, 180, 147);
-    }
+    /*#itDiv:hover {*/
+    /*    position: absolute;*/
+    /*    width: 170vw;*/
+    /*    height: 200px;*/
+    /*    top: 860px;*/
+    /*    left: 10vw;*/
+    /*    background-color: rgb(177, 180, 147);*/
+    /*}*/
 
     #itH3{
         position: absolute;

@@ -258,7 +258,13 @@
         <h6 id="assH6">Delivering excellence in every assignment—precision, creativity, and expertise tailored to surpass expectations and goals.</h6>
     </div>
 
-    <div id="oopDiv">
+    <div id="oopDiv" onclick="openAssignment()">
+        <nav id="oopNav">
+            <a>Assignment 01</a>
+            <a>Assignment 02</a>
+            <a>Assignment 03</a>
+            <a>Assignment 04</a>
+        </nav>
         <h3 id="oopH3">(Object Orianted Program)</h3>
         <img src="../Assest/Assignment/Object.png" id="oopImg">
     </div>
@@ -397,6 +403,12 @@
 
     function closemenu() {
         nav.style.left = "-200px";
+    }
+
+    var oopNav = document.getElementById("oopNav");
+
+    function openAssignment() {
+        oopNav.style.display = "block";
     }
 </script>
 
