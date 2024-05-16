@@ -1286,7 +1286,7 @@
 /*==================================PROJECT=========================================================*/
     #projectDiv{
         position: relative;
-        height: 1500px;
+        height: 1300px;
         background-color: whitesmoke;
         width: 100%;
         top: 10px;
@@ -1319,78 +1319,78 @@
 
     #imsMvcImg{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
 
     }
 
     #mvc{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
         margin: 30px;
-        top: 40vh;
-        left: 28vw;
+        top: 100px;
+        left: 3vw;
     }
 
     #lyd{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
         margin: 30px;
-        top: 85vh;
-        left: 28vw;
+        top: 330px;
+        left: 3vw;
     }
 
     #imsLimg{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
     }
 
     #game{
         position: absolute;
-        width: 120vw;
-        height: 30vh;
+        width: 80vw;
+        height: 200px;
         margin: 30px;
-        top: 130vh;
-        left: 28vw;
+        top: 560px;
+        left: 3vw;
     }
 
     #gameImg{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
     }
 
     #chat{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
         margin: 30px;
-        top: 175vh;
-        left: 28vw;
+        top: 790px;
+        left: 3vw;
     }
 
     #chatImg{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
     }
 
     #hotel{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
         margin: 30px;
-        top: 220vh;
-        left: 28vw;
+        top: 1020px;
+        left: 3vw;
     }
 
     #hotelImg{
         position: absolute;
-        width: 120vw;
-        height: 40vh;
+        width: 80vw;
+        height: 200px;
     }
 
     #imsMvcH6{
@@ -1406,21 +1406,21 @@
     }
 
 
-    /*=====================================================================================*/
+    /*====================================Contact=================================================*/
 
 
     #contactSet{
         position: relative;
         background-color: silver;
         top: 2vh;
-        height: 950px;
+        height: 1350px;
         width: 100%;
         /*width: 100%;*/
     }
 
     #conH4{
         position: absolute;
-        left: 80vw;
+        left: 35vw;
         top: 5vh;
         color: rgb(179,177,143);
 
@@ -1428,15 +1428,16 @@
 
     #conH1{
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 5vh;
         /*font-weight: bold;*/
-        font-size: 60px;
+        font-size: 40px;
     }
 
     #conH6{
         position: absolute;
         left: 10vw;
+        margin-right: 10vw;
         top: 25vh;
         font-size: 15px;
         color: rgb(179,177,143);
@@ -1445,55 +1446,55 @@
 
     #inputDiv{
         position: absolute;
-        left: 18vw;
-        width: 150vw;
-        height: 400vh;
+        left: 10vw;
+        width: 80vw;
+        height:600px;
         background-color: whitesmoke;
-        top: 45vh;
+        top: 200px;
         z-index: 50;
     }
 
     #name{
         position: absolute;
-        top: 10vh;
-        width: 130vw;
-        height: 10vh;
-        left: 10VW;
+        top: 7vh;
+        width: 70vw;
+        height: 50px;
+        left: 5VW;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
 
     #email{
         position: absolute;
-        top: 50px;
-        width: 350px;
+        top: 110px;
+        width: 70vw;
         height: 50px;
-        left: 450px;
+        left: 5vw;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
     #subject{
         position: absolute;
-        width: 760px;
+        width: 70vw;
         height: 50px;
-        left: 40px;
+        left: 5vw;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-        top: 150px;
+        top: 190px;
     }
 
     #msg{
         position: absolute;
-        width: 760px;
+        width: 70vw;
         height: 200px;
-        left: 40px;
-        top: 250px;
+        left: 5vw;
+        top: 270px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
     }
 
     #sendBtn{
         position: absolute;
-        width: 200px;
+        width: 40vw;
         height: 50px;
-        left: 40px;
+        left: 20vw;
         top: 500px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         font-size: 20px;
@@ -1509,22 +1510,22 @@
         height: 100px;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 930px;
-        top: 250px;
+        left: 10vw;
+        top: 850px;
     }
 
     #addressP1{
         position: absolute;
-        left: 1040px;
-        top: 240px;
+        left: 40vw;
+        top: 860px;
         font-weight: bold;
         font-size: 20px;
     }
 
     #addressP2{
         position: absolute;
-        left: 1040px;
-        top: 270px;
+        left: 40vw;
+        top: 880px;
         font-weight: bold;
         font-size: 20px;
         color: rgb(179,177,143);
@@ -1532,8 +1533,8 @@
 
     #addressImg{
         position: absolute;
-        left: 955px;
-        top: 275px;
+        left: 17vw;
+        top: 880px;
     }
 
     #phoneS{
@@ -1542,8 +1543,8 @@
         height: 100px;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 930px;
-        top: 400px;
+        left: 10vw;
+        top: 980px;
     }
 
     #phoneImg{
@@ -1554,16 +1555,16 @@
 
     #phoneP1{
         position: absolute;
-        left: 1040px;
-        top: 390px;
+        left: 40vw;
+        top: 1000px;
         font-weight: bold;
         font-size: 20px;
     }
 
     #phoneP2{
         position: absolute;
-        left: 1040px;
-        top: 420px;
+        left: 40vw;
+        top: 1025px;
         font-weight: bold;
         font-size: 20px;
         color: rgb(179,177,143);
@@ -1575,8 +1576,8 @@
         height: 100px;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 930px;
-        top: 550px;
+        left: 10vw;
+        top: 1110px;
     }
 
     #emailImg{
@@ -1587,16 +1588,16 @@
 
     #emailP1{
         position: absolute;
-        left: 1040px;
-        top: 540px;
+        left: 40vw;
+        top: 1130px;
         font-weight: bold;
         font-size: 20px;
     }
 
     #emailP2{
         position: absolute;
-        left: 1040px;
-        top: 570px;
+        left: 40vw;
+        top: 1150px;
         font-weight: bold;
         font-size: 20px;
         color: rgb(179,177,143);
@@ -1604,7 +1605,8 @@
 
     #footerSet{
         position: relative;
-        height: 200px;
+        height: 100px;
+        width: 100%;
         top: -40px;
         background-color: rgb(35,41,49);
     }
@@ -1613,33 +1615,39 @@
         position: absolute;
         left: 30px;
         top: 20px;
-        font-size: 40px;
+        font-size: 20px;
         color: white;
     }
 
     #insta {
         position: absolute;
-        right: 20px;
+        right: 10px;
         top: 20px;
+        width: 10vw;
+        height: 30px;
     }
 
     #whatsapp{
         position: absolute;
-        right: 80px;
+        right: 50px;
         top: 20px;
+        width: 10vw;
+        height: 30px;
     }
 
     #fb{
         position: absolute;
-        right: 140px;
+        right: 90px;
         top: 20px;
+        width: 10vw;
+        height: 30px;
     }
 
     #last{
         position: absolute;
         bottom: 20px;
-        left: 300px;
-        font-size: 20px;
+        left: 8vw;
+        font-size: 10px;
         color: white;
     }
 
