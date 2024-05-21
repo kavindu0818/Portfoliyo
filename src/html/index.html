@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Portfolyo</title>
     <link rel="stylesheet" href="../css/Style.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../Assest/css/normalize.css">
@@ -259,7 +259,7 @@
     </div>
 
     <div id="oopDiv" onclick="openAssignment()">
-        <nav id="oopNav">
+        <nav id="oopNav" onclick="closeAssignment()">
             <a>Assignment 01</a>
             <a>Assignment 02</a>
             <a>Assignment 03</a>
@@ -279,7 +279,21 @@
         <img src="../Assest/Assignment/database5.png" id="ormImg">
     </div>
 
-    <div id="itDiv">
+    <div id="itDiv" onclick="openItAssignment()">
+
+        <nav id="itNav" onclick="closeItAssignment()">
+            <a>Assignment 01</a>
+            <a>Assignment 02</a>
+            <a>Assignment 03</a>
+            <a>Assignment 04</a>
+            <a>Assignment 05</a>
+            <a>Assignment 06</a>
+            <a>Assignment 07</a>
+            <a>Assignment 08</a>
+            <a>Assignment 09</a>
+            <a>Assignment 10</a>
+            <a>Assignment 11</a>
+        </nav>
         <h3 id="itH3">Internet Technologies</h3>
         <img src="../Assest/Assignment/INTERNET.png" id="itImg">
     </div>
@@ -409,6 +423,16 @@
 
     function openAssignment() {
         oopNav.style.display = "block";
+    }
+
+    function closeAssignment(){
+        oopNav.style.display = "none";
+    }
+
+    var itNav = document.getElementById("itNav");
+
+    function openItAssignment(){
+        itNav.style.zIndex ="200";
     }
 </script>
 

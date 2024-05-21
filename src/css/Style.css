@@ -1114,16 +1114,17 @@ span{
 
 #oopNav{
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-left: 10px;
+    font-weight: bold;
     right: 30px;
     font-size: 16px; /* Adjust font size */
-    top: 200px;
+    top: 100px;
     /*right: -200px;*/
     left: -10px;
     width: 1200px;
-    height: 200px;
+    height: 80px;
     padding-top: 20px;
     transition: right 0.5s;
     z-index: 200;
@@ -1211,6 +1212,35 @@ span{
     top: 860px;
     left: 70px;
     background-color: rgb(177, 180, 147);
+}
+
+#itNav{
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    right: 30px;
+    font-size: 16px; /* Adjust font size */
+    top: 100px;
+    /*right: -200px;*/
+    left: -10px;
+    width: 1200px;
+    height: 80px;
+    padding-top: 20px;
+    transition: right 0.5s;
+    z-index: -200;
+    /*display: none;*/
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+#itDiv a{
+    margin-left: 50px;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 5px;*/
 }
 
 #itH3{
