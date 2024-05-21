@@ -1127,8 +1127,17 @@ span{
     height: 80px;
     padding-top: 20px;
     transition: right 0.5s;
-    z-index: 200;
-    display: none;
+    z-index: -200;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+#oopDiv a{
+    margin-left: 50px;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 5px;*/
 }
 
 #seDiv{
@@ -1138,6 +1147,34 @@ span{
     top: 400px;
     left: 70px;
     background-color: rgb(217,217,217);
+}
+
+#seNav{
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    right: 30px;
+    font-size: 16px; /* Adjust font size */
+    top: 100px;
+    /*right: -200px;*/
+    left: -10px;
+    width: 1200px;
+    height: 80px;
+    padding-top: 20px;
+    transition: right 0.5s;
+    z-index: -200;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+#seDiv a{
+    margin-left: 50px;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 5px;*/
 }
 
 #seDiv:hover{
@@ -1171,6 +1208,34 @@ span{
     top: 630px;
     left: 70px;
     background-color: rgb(217,217,217);
+}
+
+#ormNav{
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    right: 30px;
+    font-size: 16px; /* Adjust font size */
+    top: 100px;
+    /*right: -200px;*/
+    left: -10px;
+    width: 1200px;
+    height: 80px;
+    padding-top: 20px;
+    transition: right 0.5s;
+    z-index: -200;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+#ormDiv a{
+    margin-left: 50px;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 5px;*/
 }
 
 #ormDiv:hover{
@@ -1372,17 +1437,103 @@ span{
     height: 400px;
 }
 
-#imsMvcH6{
+#imsMvcH6 {
     position: absolute;
+    z-index: -200;
 }
 
-#imsMvcImg:hover #imsMvcH6 {
-    z-index: 100;
+#imsMvcH6 span{
+    position: absolute;
+    z-index: -200;
+    left: 70px;
+    color: white;
+}
+
+#imsMvcImg:hover + #imsMvcH6 {
+    z-index: 300;
     color: white;
     font-size: 20px;
-    left: 20px;
-
+    left: 70px;
+    top: 130px;
 }
+
+#imsMvcImg:hover + #imsMvcH6 span {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 50px;
+    top: 25px;
+}
+
+#imsLH6{
+    position: absolute;
+    z-index: -200;
+}
+
+#imsLH6 span{
+    position: absolute;
+    z-index: -200;
+    left: 70px;
+    color: white;
+}
+
+#imsLimg:hover + #imsLH6 {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 70px;
+    top: 130px;
+}
+
+#imsLimg:hover + #imsLH6 span {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 50px;
+    top: 25px;
+}
+
+#chatH6 {
+    position: absolute;
+    z-index: -200;
+}
+
+#chatImg:hover + #chatH6 {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 85px;
+    top: 130px;
+}
+
+#gameH6{
+    position: absolute;
+    z-index: -200;
+}
+
+#gameImg:hover + #gameH6 {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 95px;
+    top: 130px;
+}
+
+#hotelH6{
+    position: absolute;
+    z-index: -200;
+}
+
+#hotelImg:hover + #hotelH6 {
+    z-index: 300;
+    color: white;
+    font-size: 20px;
+    left: 85px;
+    top: 130px;
+}
+
+
+
 
 #contactSet{
     position: relative;

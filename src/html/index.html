@@ -269,19 +269,32 @@
         <img src="../Assest/Assignment/Object.png" id="oopImg">
     </div>
 
-    <div id="seDiv">
+    <div id="seDiv" onclick="openSeAssignment()">
+
+        <nav id="seNav" onclick="closeSeAssignment()">
+            <a>Assignment 01</a>
+            <a>Assignment 02</a>
+            <a>Assignment 03</a>
+            <a>Assignment 04</a>
+        </nav>
         <h3 id="seH3">(Softwere Engineering)</h3>
         <img src="../Assest/Assignment/SoftwereEngineering.png" id="seImg">
     </div>
 
-    <div id="ormDiv">
+    <div id="ormDiv" onclick="openOrmAssignment()">
+        <nav id="ormNav" onclick="closeOrmAssignment()">
+            <a>Assignment 01</a>
+            <a>Assignment 02</a>
+            <a>Assignment 03</a>
+            <a>Assignment 04</a>
+        </nav>
         <h3 id="ormH3">(Object Relational Mapping)</h3>
         <img src="../Assest/Assignment/database5.png" id="ormImg">
     </div>
 
     <div id="itDiv" onclick="openItAssignment()">
 
-        <nav id="itNav" onclick="closeItAssignment()">
+        <nav id="itNav" onclick="closeItAssignment()"  data-aos="flip-left">
             <a>Assignment 01</a>
             <a>Assignment 02</a>
             <a>Assignment 03</a>
@@ -314,12 +327,12 @@
     
     <div id="mvc">
         <img src="../Assest/Project/Project1.jpg" id="imsMvcImg">
-        <h6 id="imsMvcH6">Institute Management System <br> MVC Architecuer</h6>
+        <h6 id="imsMvcH6">Institute Management System <br><span>MVC Architecuer</span></h6>
     </div>
     
     <div id="lyd">
         <img src="../Assest/Project/Project2.jpg" id="imsLimg">
-        <h6 id="imsLH6">Institute Management System <br> Leyard Architecuer</h6>
+        <h6 id="imsLH6">Institute Management System <br><span>Leyard Architecuer</span></h6>
     </div>
 
     <div id="game">
@@ -422,7 +435,7 @@
     var oopNav = document.getElementById("oopNav");
 
     function openAssignment() {
-        oopNav.style.display = "block";
+        oopNav.style.zIndex = "200";
     }
 
     function closeAssignment(){
@@ -433,6 +446,18 @@
 
     function openItAssignment(){
         itNav.style.zIndex ="200";
+    }
+
+    var ormNav = document.getElementById("ormNav");
+
+    function openOrmAssignment(){
+        ormNav.style.zIndex="200";
+    }
+
+    var seNav = document.getElementById("seNav");
+
+    function openSeAssignment(){
+        seNav.style.zIndex="200";
     }
 </script>
 
