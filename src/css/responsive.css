@@ -1168,14 +1168,15 @@
         display: none;
     }
 
-    /*#oopDiv:hover{*/
-    /*    position: absolute;*/
-    /*    width: 170vw;*/
-    /*    height: 200px;*/
-    /*    top: 170px;*/
-    /*    left: 10vw;*/
-    /*    background-color: rgb(177,180,147);*/
-    /*}*/
+    #oopDiv:hover{
+        position: absolute;
+        width: 170vw;
+        height: 200px;
+        top: 170px;
+        left: 10vw;
+        background-color: rgb(177,180,147);
+        display: none;
+    }
 
     #oopH3 {
         position: absolute;
