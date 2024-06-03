@@ -134,25 +134,59 @@ header>div>nav>a:hover{
     bottom: 10px;
 }
 
+#profile:hover #p1 {
+  display: none;
+}
+
+#ppH1{
+    position: absolute;
+    font-size: 400%;
+    bottom: 30vh;
+    z-index: 150;
+    font-weight: bold;
+    left: 10vw;
+    display: none;
+}
+
+#ppH2{
+    position: absolute;
+    font-size: 400%;
+    bottom: 21vh;
+    z-index: 100;
+    font-weight: bold;
+    left: 10vw;
+    display: none;
+}
+
+#p2st{
+    position: absolute;
+    color: #B2B595;
+    font-size: 100%;
+    left: 10vw;
+    top: 150px;
+    font-weight: bold;
+    display: none;
+}
+
 span{
     color: #B1B493;
 }
 #p1{
     position: absolute;
-    font-size: 550%;
+    font-size: 400%;
     bottom: 30vh;
     z-index: 150;
     font-weight: bold;
-    left: 1vw;
+    left: 10vw;
 }
 
 #p2{
     position: absolute;
-    font-size: 280%;
-    bottom: 30vh;
+    font-size: 400%;
+    bottom: 21vh;
     z-index: 100;
     font-weight: bold;
-    left: 1vw;
+    left: 10vw;
 }
 
 #rp1{
@@ -165,22 +199,40 @@ span{
     display: none;
 }
 
+#p1st{
+    position: absolute;
+    color: #B2B595;
+    font-size: 100%;
+    left: 10vw;
+    top: 150px;
+    font-weight: bold;
+}
+
 #btn1{
     position: absolute;
-    bottom: 13vw;
-    left: 3vw;
+    bottom: 10vw;
+    left: 10vw;
     width: 8vw;
     height: 6vh;
-    background-color: #D1D0BA;
+    background-color: #B1B493;
     font-weight: bold;
+    border: none;
+    color: white;
     /*border-bottom-left-radius: 10px;*/
 }
 #btn2{
     position: absolute;
-    bottom: 13vw;
-    left: 12vw;
+    bottom: 10vw;
+    left: 20vw;
     width: 8vw;
     height: 6vh;
+    color: #B2B595;
+    background-color: white;
+    border: 1px solid  #B1B493;
+}
+#btn2:hover {
+    background-color: #B1B493;
+    color: white/* Background color on hover */
 }
 
 #quality{

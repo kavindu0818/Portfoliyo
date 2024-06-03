@@ -100,6 +100,7 @@
             bottom: 0vh;
              width: 80vw;
             height: 350px;
+            margin: 0px;
             /*top: 10vh;*/
         }
 
@@ -121,10 +122,10 @@
         color: white;
         font-size: 40px; /* Adjust font size */
         bottom: 180px;
-        z-index: 110;
+        /*z-index: 110;                   /meka*/
         font-weight: bold;
         left: 35vw;
-        display: block;
+        display: none;
     }
 
     #rp2{
@@ -133,10 +134,40 @@
         top: 230px;
         font-size: 20px;
         left: 20vw;
-       display: block;
+       display: none;    /meka
         color: #B1B493;
         z-index: 200;
         font-weight: bold;
+    }
+
+    #ppH1{
+        position: absolute;
+        font-size: 400%;
+        bottom: 30vh;
+        z-index: 150;
+        font-weight: bold;
+        left: 10vw;
+        display: none;
+    }
+
+    #ppH2{
+        position: absolute;
+        font-size: 400%;
+        bottom: 21vh;
+        z-index: 100;
+        font-weight: bold;
+        left: 10vw;
+        display: none;
+    }
+
+    #p2st{
+        position: absolute;
+        color: #B2B595;
+        font-size: 100%;
+        left: 10vw;
+        top: 150px;
+        font-weight: bold;
+        display: none;
     }
 
     span{
@@ -1228,6 +1259,24 @@
         top: 60px;
     }
 
+    #seNav{
+        position: relative;
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        right: 30px;
+        font-size: 16px; /* Adjust font size */
+        top: 110px;
+        /*right: -200px;*/
+        left: -10px;
+        width: 80vw;
+        height: 200px;
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 200;
+        display: none;
+    }
+
     #ormDiv{
         position: absolute;
         width: 80vw;
@@ -1261,6 +1310,24 @@
         top: 60px;
     }
 
+    #ormNav{
+        position: relative;
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        right: 30px;
+        font-size: 16px; /* Adjust font size */
+        top: 110px;
+        /*right: -200px;*/
+        left: -10px;
+        width: 80vw;
+        height: 200px;
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 200;
+        display: none;
+    }
+
     #itDiv{
         position: absolute;
         width: 80vw;
@@ -1292,6 +1359,24 @@
         height: 50px;
         left: 30vw;
         top: 60px;
+    }
+
+    #itNav{
+        position: relative;
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+        right: 30px;
+        font-size: 16px; /* Adjust font size */
+        top: 110px;
+        /*right: -200px;*/
+        left: -10px;
+        width: 80vw;
+        height: 200px;
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 200;
+        display: none;
     }
 
     #downBtn{

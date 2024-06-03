@@ -36,17 +36,25 @@
             <a href="#contactSet">Contact</a>
             <img src="../Assest/Assignment/timeBar.svg" id="timeBar" onclick="closemenu()">
         </nav>
-        <img src="../Assest/Assignment/menu2.png" id="menuIcon" onclick="openmenu()">
+
+<!--        <p id="menuIcon" onclick="openmenu()></p>-->
+        <img src="../Assest/main/menu-bar.png" id="menuIcon" onclick="openmenu()">
     </div>
 </header>
 
 <section  id="pro">
     <div>
 
-        <p id="p1" data-aos="fade-right">Hi,i am <span> Kavindu Madhuranga </span></p> <br>
-        <p id="rp1" data-aos="fade-right">Hi,i am </p> <br>
-        <p id="rp2" data-aos="fade-right">KAVINDU MADHURANGA </p> <br>
-        <p id="p2">Software Engineer / Web Developer</p>
+        <p id="p1st">WE DESIGN & BUILD BRAND</p>
+        <p id="p2st">Hello! THIS IS MADHURANGA</p>
+        <p id="p1" data-aos="fade-right">Hi,i am <span> Madhuranga </span> This is</p> <br>
+<!--        <p id="tabP1">Hi,i am Madhuranga This is my</p>-->
+<!--        <p id="rp1" data-aos="fade-right">Hi,i am </p> <br>-->
+<!--        <p id="rp2" data-aos="fade-right">Kavindu MADHURANGA </p> <br>-->
+        <p id="p2">my favorite work.</p>
+
+        <p id="ppH1">Software Engineer &</p>
+        <p id="ppH2">Web Developer</p>
     </div>
 
     <div>
@@ -73,14 +81,14 @@
             <img src="../Assest/Ellipse.png" id="ellips1">
             <img src="../Assest/Project.png" id="image1">
             <P id="pp1" >4</P>
-            <p id="pp2" >PROJECT COMPLETE</p>
+            <p id="pp2" >PROJECT <span id="span2Q">COMPLETE</span></p>
 
         <div>
 
              <img src="../Assest/Ellipse.png" id="ellips2">
              <img src="../Assest/Persone.png" id="image2">
              <p id="pp3">100</p>
-             <p id="pp4">HAPPY CLIENTS</p>
+             <p id="pp4">HAPPY <span id="span3Q">CLIENTS</span></p>
 
         </div>
 
@@ -89,7 +97,7 @@
             <img src="../Assest/Ellipse.png" id="ellips3">
             <img src="../Assest/download%20(6).png" id="image3">
             <P id="pp5">2</P>
-            <P id="pp6">YEARS EXPERIECED</P>
+            <P id="pp6">YEARS <span id="span4Q">EXPERIECED</span></P>
 
         </div>
 
@@ -415,6 +423,7 @@
 
 <script>
     var nav = document.getElementById("nav");
+    var navDiv = document.getElementById("navDiv");
 
     function togglemenu() {
         // Toggle the menu by changing its right position
@@ -426,7 +435,8 @@
     }
 
     function openmenu() {
-        nav.style.left = "0";
+        nav.style.display = "block";
+        navDiv.style.height = "400px";
     }
 
     function closemenu() {
@@ -460,6 +470,54 @@
     function openSeAssignment(){
         seNav.style.zIndex="200";
     }
+
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('p1').style.display = 'none';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('p1').style.display = 'block';
+    });
+
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('p2').style.display = 'none';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('p2').style.display = 'block';
+    });
+
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('ppH1').style.display = 'block';
+    });
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('ppH2').style.display = 'block';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('ppH1').style.display = 'none';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('ppH2').style.display = 'none';
+    });
+
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('p1st').style.display = 'none';
+    });
+
+    document.getElementById('profile').addEventListener('mouseover', function() {
+        document.getElementById('p2st').style.display = 'block';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('p1st').style.display = 'block';
+    });
+
+    document.getElementById('profile').addEventListener('mouseout', function() {
+        document.getElementById('p2st').style.display = 'none';
+    });
+
 </script>
 
 </body>
