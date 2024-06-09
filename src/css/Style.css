@@ -1131,6 +1131,88 @@ span{
     top: 60px;
 }
 
+.assignment{
+    position: absolute;
+    top: 50px;
+    left: 5vw;
+    width: 25vw;
+    height: 200px;
+   border-radius: 20px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2rem;
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#aDiv1{
+    top: 160px;
+    left: 8vw;
+}
+
+#aDiv2{
+    top: 160px;
+    left: 36vw;
+}
+
+#aDiv3{
+    top: 160px;
+    left: 64vw;
+}
+
+#aDiv4{
+    top: 400px;
+    left: 8vw;
+}
+
+#aDiv5{
+    top: 400px;
+    left: 36vw;
+}
+
+#aDiv6{
+    top: 400px;
+    left: 64vw;
+}
+
+#aDiv7{
+    top: 640px;
+    left: 8vw;
+}
+
+#aDiv8{
+    top: 640px;
+    left: 36vw;
+}
+
+#aDiv9{
+    top: 640px;
+    left: 64vw;
+}
+
+#aDiv10{
+    top: 880px;
+    left: 8vw;
+}
+
+#aDiv11{
+    top: 880px;
+    left: 36vw;
+}
+
+#aDiv12{
+    top: 880px;
+    left: 64vw;
+}
+
+
+
 #oopDiv{
     position: absolute;
     width: 1200px;

@@ -104,11 +104,11 @@
       position: absolute;
       display: block;
       color: white;
-      font-size: 300%; /* Adjust font size */
+      font-size: 7vw; /* Adjust font size */
       bottom: 180px;
       z-index: 110;
       font-weight: bold;
-      left: 10vw;
+      left: 7vw;
   }
 
     span{
@@ -118,8 +118,8 @@
     #p1st{
         position: absolute;
         color: #B2B595;
-        font-size: 100%;
-        left: 35vw;
+        font-size: 3vw;
+        left: 25vw;
         top: 300px;
         z-index: 1000;
         font-weight: bold;
@@ -128,8 +128,8 @@
     #p2st{
         position: absolute;
         color: #B2B595;
-        font-size: 100%;
-        left: 35vw;
+        font-size: 3vw;
+        left: 25vw;
         top: 300px;
         z-index: 1000;
         font-weight: bold;
@@ -137,34 +137,34 @@
 
     #p2 {
         position: absolute;
-        font-size: 300%; /* Adjust font size */
+        font-size: 8vw; /* Adjust font size */
         bottom: 130px;
         z-index: 110;
         font-weight: bold;
-        left: 24vw;
+        left: 20vw;
         color: white;
         display: block;
     }
 
     #ppH1{
         position: absolute;
-        font-size: 350%;
+        font-size:8vw;
         bottom: 30vh;
         z-index: 150;
         font-weight: bold;
-        left: 15vw;
+        left: 12vw;
         color: white;
         display: none;
     }
 
     #ppH2{
         position: absolute;
-        font-size: 300%;
+        font-size: 8vw;
         bottom: 21vh;
         color: white;
         z-index: 1000;
         font-weight: bold;
-        left: 30vw;
+        left: 22vw;
         display: none;
     }
 
@@ -390,16 +390,16 @@
         position: absolute;
         left: 50vw;
         top: 140px;
-        font-size: 2vw;
-        margin-right: 10vw;
+        font-size: 13px;
+        margin-right: 4vw;
     }
 
     #ul{
         position: absolute;
         left: 55vw;
-        top: 320px;
+        top: 340px;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 2.5vw;
         font-family: "Arial Narrow";
     }
 
