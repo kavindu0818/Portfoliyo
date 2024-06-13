@@ -247,12 +247,16 @@ span{
     position: absolute;
     left: 7.5vw;
     top: 7vh;
+    width: 8vw;
+    height: 8vw;
 }
 
 #image1{
     position: absolute;
-    left: 9.5vw;
-    top: 70px;
+    left: 8.5vw;
+    top: 60px;
+    width: 6vw;
+    height: 5vw;
 }
 
 
@@ -260,7 +264,7 @@ span{
     position: absolute;
     left: 17vw;
     top: 0px;
-    font-size: 50px;
+    font-size: 4vw;
 
 }
 
@@ -268,57 +272,66 @@ span{
     position: absolute;
     left: 16vw;
     top: 90px;
-    font-size: 20px;
+    font-size: 1.5vw;
+    color: #B1B493;
 }
 #ellips2{
     position: absolute;
     left: 36.5vw;
     top: 40px;
+    width: 8vw;
+    height: 8vw;
 }
 
 #image2{
     position: absolute;
     left: 37.5vw;
     top: 50px;
+    width: 6vw;
 }
 
 #pp3{
     position: absolute;
     left: 46vw;
     top: 0px;
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 #pp4{
     position: absolute;
     left: 45vw;
     top: 90px;
-    font-size: 20px;
+    font-size: 1.5vw;
+    color: #B1B493;
 }
 #ellips3{
     position: absolute;
     right: 29vw;
     top: 40px;
+    width: 8vw;
+    height: 8vw;
 }
 
 #image3{
     position: absolute;
     right: 30vw;
     top: 50px;
+    width: 6vw;
 }
 
 #pp5{
     position: absolute;
     right: 25vw;
     top: 0px;
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 #pp6{
     position: absolute;
     right: 14vw;
     top: 90px;
-    font-size: 20px;
+    font-size: 1.5vw;
+    color: #B1B493;
 }
 #about{
     position: relative;
@@ -480,15 +493,16 @@ span{
 }
 #skillH4{
     position: absolute;
-    left: 650px;
+    left: 48vw;
     color: #D1D0BA;
+    display: none;
 
 }
 
 #skillH1{
     position: absolute;
     /*align-content: center;*/
-    left: 590px;
+    left: 42.5vw;
     font-weight: bolder;
     top: 30px;
     font-size: 50px;
@@ -497,15 +511,15 @@ span{
 #skillP{
     position: absolute;
     top: 120px;
-    left: 250px;
-    font-size: 20px;
+    left: 20vw;
+    font-size: 1.5vw;
 }
 
 #htmlDiv{
     position: absolute;
-    left: 30px;
-    width: 250px;
-    height: 200px;
+    left: 2vw;
+    width: 18vw;
+    height: 33vh;
     border: 1px solid black;
     margin: 30px;
     top: 170px;
@@ -515,24 +529,24 @@ span{
 #html{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #htmlH5{
     position: absolute;
     font-size: 20px;
-    left: 95px;
+    left: 7vw;
     top: -10px;
 }
 
 #cssDiv{
     position: absolute;
-    left: 355px;
-    width: 250px;
+    left: 26vw;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -543,24 +557,24 @@ span{
 #css{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #cssH5{
     position: absolute;
     font-size: 20px;
-    left: 95px;
+    left: 7vw;
     top: -10px;
 }
 
 #jsDiv{
     position: absolute;
-    left: 680px;
-    width: 250px;
+    left: 50vw;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -571,25 +585,25 @@ span{
 #js{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #jsH5{
     position: absolute;
     font-size: 20px;
-    left: 110px;
+    left: 8vw;
     top: -10px;
 }
 
 #mysqlDiv{
     position: absolute;
-    right: 30px;
+    right: 2vw;
     /*left: 985px;*/
-    width: 250px;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -600,24 +614,24 @@ span{
 #mysql{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #mysqlH5{
     position: absolute;
     font-size: 20px;
-    left: 95px;
+    left: 7vw;
     top: -10px;
 }
 
 #hybernrtDiv{
     position: absolute;
-    left: 30px;
-    width: 250px;
+    left: 2vw;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -628,24 +642,26 @@ span{
 #hybernet{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 100px;
     margin: 20px;
     top: 50px;
-    left: 30px;
+    left: 2.5vw;
+
 }
 
 #hybernetH5{
     position: absolute;
     font-size: 20px;
-    left: 95px;
+    left: 6vw;
     top: -10px;
+    right: 4.5vw;
 }
 
 #springDiv{
     position: absolute;
-    left: 355px;
-    width: 250px;
+    left: 26vw;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -656,24 +672,24 @@ span{
 #spring{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #springH5{
     position: absolute;
     font-size: 20px;
-    left: 80px;
+    left: 5vw;
     top: -10px;
 }
 
 #reactDiv{
     position: absolute;
-    left: 680px;
-    width: 250px;
+    left: 50vw;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -684,25 +700,25 @@ span{
 #react{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #reactH5{
     position: absolute;
     font-size: 20px;
-    left: 100px;
+    left: 7vw;
     top: -10px;
 }
 
 #figmaDiv{
     position: absolute;
-    right: 30px;
+    right: 2vw;
     /*left: 985px;*/
-    width: 250px;
+    width: 18vw;
     height: 200px;
     border: 1px solid black;
     margin: 30px;
@@ -713,17 +729,17 @@ span{
 #figma{
     position: absolute;
     /*left: 40px;*/
-    width: 150px;
+    width: 10vw;
     height: 150px;
     margin: 20px;
     top: 25px;
-    left: 30px;
+    left: 2.5vw;
 }
 
 #figmaH5{
     position: absolute;
     font-size: 20px;
-    left: 100px;
+    left: 7vw;
     top: -10px;
 }
 
@@ -743,44 +759,28 @@ span{
 
 #serviceH1 {
     position: absolute;
-    left: 550px;
+    left: 40vw;
     font-size: 60px;
 }
 
 #serviceH6{
     position: absolute;
-    left: 200px;
+    left: 15vw;
     font-size: 20px;
     top: 60px;
 }
 
 #wdDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 30px;
+    left: 2vw;
     top: 180px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#oopNav{
-    position: relative;
-    background-color: black;
-    color: white;
-    margin-left: 10px;
-    right: 30px;
-    font-size: 16px; /* Adjust font size */
-    top: 110px;
-    /*right: -200px;*/
-    left: 30px;
-    width: 350px;
-    height: 200px;
-    padding-top: 20px;
-    transition: right 0.5s;
-    z-index: 200;
-    display: none;
-}
+
 
 #wdS{
     position: absolute;
@@ -796,7 +796,7 @@ span{
     position: absolute;
     left: 30px;
     font-size: 30px;
-    top: 40px;
+    top: 3vw;
     font-weight: bolder;
 }
 
@@ -806,9 +806,11 @@ span{
     top: 100px;
     left: 20px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: rgb(215,215,215);
 }
+
+
 
 #wdDiv:hover {
     background-color: rgb(177, 180, 147);
@@ -820,7 +822,7 @@ span{
 
 #waDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
     left: 475px;
@@ -830,10 +832,10 @@ span{
 
 #wbdDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 920px;
+    left: 67.5vw;
     top: 180px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -878,10 +880,10 @@ span{
 
 #waDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 478px;
+    left: 35vw;
     top: 180px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -926,10 +928,10 @@ span{
 
 #logDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 478px;
+    left: 35vw;
     top: 570px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -973,10 +975,10 @@ span{
 
 #banDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 30px;
+    left: 2vw;
     top: 570px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -1020,10 +1022,10 @@ span{
 
 #preDiv{
     position: absolute;
-    width: 350px;
+    width: 25.5vw;
     height: 300px;
     margin: 20px;
-    left: 920px;
+    left: 67.5vw;
     top: 570px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -1063,6 +1065,59 @@ span{
 
 #preDiv:hover #preS {
     background-color: whitesmoke;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+    #wdP{
+        position: absolute;
+        margin: 20px;
+        top: 130px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 1.8vw;
+        color: rgb(215,215,215);
+    }
+
+    #wbdp{
+        position: absolute;
+        margin: 20px;
+        top: 130px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 1.8vw;
+        color: rgb(215,215,215);
+    }
+
+    #waP{
+        position: absolute;
+        margin: 20px;
+        top: 130px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 1.8vw;
+        color: rgb(215,215,215);
+    }
+
+
+    #logP{
+        position: absolute;
+        margin: 20px;
+        top: 130px;
+        left: 20px;
+        font-weight: bolder;
+        font-size: 1.8vw;
+        color: rgb(215,215,215);
+    }
+
+    #banP{
+        font-size: 1.8vw;
+        top: 130px;
+    }
+
+    #preP{
+        font-size: 1.8vw;
+        top: 130px;
+    }
 }
 
 #sI1{
@@ -1120,96 +1175,37 @@ span{
 
 #AssH1{
     position: absolute;
-    left: 550px;
+    left: 40vw;
     font-size: 50px;
 }
 
 #assH6{
     position: absolute;
-    font-size: 20px;
+    font-size: 2vw;
     left: 150px;
     top: 60px;
 }
 
-.assignment{
-    position: absolute;
-    top: 50px;
-    left: 5vw;
-    width: 25vw;
-    height: 200px;
-   border-radius: 20px;
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 2rem;
-    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    font-size: 2vw;
-    font-weight: bold;
-}
+/*.assignment{*/
+/*    position: absolute;*/
+/*    top: 50px;*/
+/*    left: 5vw;*/
+/*    width: 25vw;*/
+/*    height: 200px;*/
+/*   border-radius: 20px;*/
+/*    display: flex;*/
+/*    grid-template-columns: repeat(3, 1fr);*/
+/*    grid-template-rows: repeat(4, 1fr);*/
+/*    grid-gap: 2rem;*/
+/*    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);*/
+/*    background-color: white;*/
+/*    justify-content: center;*/
+/*    align-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 2vw;*/
+/*    font-weight: bold;*/
+/*}*/
 
-#aDiv1{
-    top: 160px;
-    left: 8vw;
-}
-
-#aDiv2{
-    top: 160px;
-    left: 36vw;
-}
-
-#aDiv3{
-    top: 160px;
-    left: 64vw;
-}
-
-#aDiv4{
-    top: 400px;
-    left: 8vw;
-}
-
-#aDiv5{
-    top: 400px;
-    left: 36vw;
-}
-
-#aDiv6{
-    top: 400px;
-    left: 64vw;
-}
-
-#aDiv7{
-    top: 640px;
-    left: 8vw;
-}
-
-#aDiv8{
-    top: 640px;
-    left: 36vw;
-}
-
-#aDiv9{
-    top: 640px;
-    left: 64vw;
-}
-
-#aDiv10{
-    top: 880px;
-    left: 8vw;
-}
-
-#aDiv11{
-    top: 880px;
-    left: 36vw;
-}
-
-#aDiv12{
-    top: 880px;
-    left: 64vw;
-}
 
 
 
@@ -1899,4 +1895,266 @@ span{
     left: 300px;
     font-size: 20px;
     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*====================================Animation============================*/
+#allBox {
+    position: absolute; /* or another position value based on your layout needs */
+    display: grid; /* Specify that this element will be a grid container */
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal fractional width */
+    grid-template-rows: repeat(4, 1fr); /* Four rows with equal fractional height */
+    grid-gap: 2rem; /* Gap between grid items */
+    justify-content: center; /* Center items along the row axis */
+    align-content: center; /* Center items along the column axis (if grid area is larger than items) */
+    align-items: center; /* Align items individually along the column axis */
+}
+
+
+.card {
+    position: relative;
+    width: 25vw;
+    height: 200px;
+    left: 10vw;
+    top: 180px;
+    background: #B1B493;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 1s ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+}
+
+/*.card {*/
+/*    position: relative;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background: lightgrey;*/
+/*    border-radius: 30px;*/
+/*    overflow: hidden;*/
+/*    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+/*    transition: all 1s ease-in-out;*/
+/*    border: 2px solid rgb(255, 255, 255);*/
+/*}*/
+
+.background {
+    position: absolute;
+    inset: 0;
+    /*background-color: #4158D0;*/
+    /*background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
+}
+
+.logo {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    transition: all 0.6s ease-in-out;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.logo .logo-svg {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon .svg {
+    fill: rgba(255, 255, 255, 0.797);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.box {
+    position: absolute;
+    padding: 10px;
+    text-align: right;
+    background: black;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 1px solid white;
+    border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
+    box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
+    transform-origin: bottom left;
+    transition: all 1s ease-in-out;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.box:hover .svg {
+    fill: white;
+}
+
+.box1 {
+    width: 70%;
+    height: 70%;
+    bottom: -70%;
+    left: -70%;
+}
+
+.box1::before {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
+}
+
+.box1:hover::before {
+    opacity: 1;
+}
+
+.box1:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+    bottom: -50%;
+    left: -50%;
+    transition-delay: 0.2s;
+}
+
+.box2::before {
+    background: radial-gradient(circle at 30% 107%, #91e9ff 0%, #00ACEE 90%);
+}
+
+.box2:hover::before {
+    opacity: 1;
+}
+
+.box2:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+}
+
+.box3 {
+    width: 30%;
+    height: 30%;
+    bottom: -30%;
+    left: -30%;
+    transition-delay: 0.4s;
+}
+
+.box3::before {
+    background: radial-gradient(circle at 30% 107%, #969fff 0%, #b349ff 90%);
+}
+
+.box3:hover::before {
+    opacity: 1;
+}
+
+.box3:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+}
+
+.box4 {
+    width: 10%;
+    height: 10%;
+    bottom: -10%;
+    left: -10%;
+    transition-delay: 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .box {
+    bottom: -1px;
+    left: -1px;
+}
+
+.card:hover .logo {
+    transform: translate(70px, -52px);
+    letter-spacing: 0px;
+}
+
+#aDiv1{
+    top: 160px;
+    left: 8vw;
+}
+
+#aDiv2{
+    top: 160px;
+    left: 36vw;
+}
+
+#aDiv3{
+    top: 160px;
+    left: 64vw;
+}
+
+#aDiv4{
+    top: 400px;
+    left: 8vw;
+}
+
+#aDiv5{
+    top: 400px;
+    left: 36vw;
+}
+
+#aDiv6{
+    top: 400px;
+    left: 64vw;
+}
+
+#aDiv7{
+    top: 640px;
+    left: 8vw;
+}
+
+#aDiv8{
+    top: 640px;
+    left: 36vw;
+}
+
+#aDiv9{
+    top: 640px;
+    left: 64vw;
+}
+
+#aDiv10{
+    top: 880px;
+    left: 8vw;
+}
+
+#aDiv11{
+    top: 880px;
+    left: 36vw;
+}
+
+#aDiv12{
+    top: 880px;
+    left: 64vw;
 }
