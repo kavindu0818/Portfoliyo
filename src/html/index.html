@@ -34,11 +34,11 @@
             <a href="#assignmentSet">Assignment</a>
             <a href="#projectDiv">Project</a>
             <a href="#contactSet">Contact</a>
-            <img src="../Assest/Assignment/timeBar.svg" id="timeBar" onclick="closemenu()">
+            <img src="../Assest/main/CloseMenu.png" id="timeBar" onclick="closemenu()">
         </nav>
 
-<!--        <p id="menuIcon" onclick="openmenu()></p>-->
-        <img src="../Assest/main/menu-bar.png" id="menuIcon" onclick="openmenu()">
+        <!--        <p id="menuIcon" onclick="openmenu()></p>-->
+        <P id="menuIcon" onclick="openmenu()">MENU</P>
     </div>
 </header>
 
@@ -513,7 +513,7 @@
 
         <a href="###" class="box box3">
     <span class="icon">
-        <img src="../Assest/Services/monitor.png" alt="Monitor Icon" width="20" height="20">
+        <img src="../Assest/Services/monitor.png" alt="Monitor Icon" width="20" height="20" style="right: 0;">
     </span>
         </a>
 
@@ -649,7 +649,7 @@
     
     <div id="hotel" data-aos="zoom-in-left">
         <img src="../Assest/Project/Project5.png" id="hotelImg">
-        <h6 id="hotelH6">Hotel Management System</h6>
+        <h6 id="hotelH6">Library Management System</h6>
     </div>
         
 </section>
@@ -714,104 +714,7 @@
     AOS.init();
 </script>
 
-<script>
-    var nav = document.getElementById("nav");
-    var navDiv = document.getElementById("navDiv");
-
-    function togglemenu() {
-        // Toggle the menu by changing its right position
-        if (nav.style.right === "0px") {
-            closemenu();
-        } else {
-            openmenu();
-        }
-    }
-
-    function openmenu() {
-        nav.style.display = "block";
-        navDiv.style.height = "400px";
-    }
-
-    function closemenu() {
-        nav.style.left = "-200px";
-    }
-
-    var oopNav = document.getElementById("oopNav");
-
-    function openAssignment() {
-        oopNav.style.zIndex = "200";
-    }
-
-    function closeAssignment(){
-        oopNav.style.display = "none";
-    }
-
-    var itNav = document.getElementById("itNav");
-
-    function openItAssignment(){
-        itNav.style.zIndex ="200";
-    }
-
-    var ormNav = document.getElementById("ormNav");
-
-    function openOrmAssignment(){
-        ormNav.style.zIndex="200";
-    }
-
-    var seNav = document.getElementById("seNav");
-
-    function openSeAssignment(){
-        seNav.style.zIndex="200";
-    }
-
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('p1').style.display = 'none';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('p1').style.display = 'block';
-    });
-
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('p2').style.display = 'none';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('p2').style.display = 'block';
-    });
-
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('ppH1').style.display = 'block';
-    });
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('ppH2').style.display = 'block';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('ppH1').style.display = 'none';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('ppH2').style.display = 'none';
-    });
-
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('p1st').style.display = 'none';
-    });
-
-    document.getElementById('profile').addEventListener('mouseover', function() {
-        document.getElementById('p2st').style.display = 'block';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('p1st').style.display = 'block';
-    });
-
-    document.getElementById('profile').addEventListener('mouseout', function() {
-        document.getElementById('p2st').style.display = 'none';
-    });
-
-</script>
-
+<script src="../js/script.js"></script>
+<!---->
 </body>
 </html>

@@ -32,12 +32,13 @@
         font-size: 16px; /* Adjust font size */
         top: 15vh;
         /*right: -200px;*/
-        left: -200px;
+        left: 200px;
         width: 40vw;
         height: 400px;
         padding-top: 20px;
         transition: right 0.5s;
-        z-index: 200;/*display: none;*/
+        z-index: 2000;
+        display: none;/*display: none;*/
         /* Adjust positioning to align with the top */
     }
 
@@ -51,7 +52,9 @@
         display: block;
         width: 40px;
         height: 30px;
-        background-color: white;
+        /*background-color: white;*/
+        font-size: 5vw;
+        color: white;
         left: 80vw;
     }
 
@@ -62,6 +65,8 @@
         height: 20px;
         top: 20px;
         left: 10px;
+        color: white;
+        background-color: white;
     }
 
     #tag {
@@ -293,6 +298,17 @@
         font-weight: bold;
         color: #B1B493;
     }
+
+    #span2Q {
+        position: absolute;
+        left: 25vw;
+        top: 0px;
+        font-size: 5vw;
+        font-weight: bold;
+        color: #B1B493;
+        display: block;
+    }
+
     #ellips2{
         position: absolute;
         left: 15vw;
@@ -324,7 +340,18 @@
         font-size: 5vw;
         font-weight: bold;
         color: #B1B493;
+        display: block;
 
+    }
+
+    #span3Q {
+        position: absolute;
+        left: 20vw;
+        top: 0px;
+        font-size: 5vw;
+        font-weight: bold;
+        color: #B1B493;
+        display: block;
     }
     #ellips3{
         position: absolute;
@@ -358,21 +385,33 @@
         top: 58vw;
         font-size: 12vw;
         font-weight: bold;
-        display: none;
+        display: block;
     }
 
     #pp6{
         position: absolute;
         left: 38vw;
         top: 70vw;
-        font-size: 4.7vw;
+        font-size: 5vw;
         font-weight: bold;
         color: #B1B493;
-        display: none;
+        display: block;
 
     }
 
-/*===========================About=========================================================*/
+    #span4Q {
+        position: absolute;
+        left: 19vw;
+        top: 0px;
+        font-size: 5vw;
+        font-weight: bold;
+        color: #B1B493;
+        display: block;
+    }
+
+
+
+    /*===========================About=========================================================*/
 
     #about{
         position: relative;
@@ -1269,15 +1308,19 @@
     }
 
     .logo .logo-svg {
+        position: absolute;
         fill: white;
         width: 30px;
         height: 30px;
+
     }
 
     .icon {
+        position: absolute;
         display: inline-block;
         width: 20px;
         height: 20px;
+        right: 0vw;
     }
 
     .icon .svg {
@@ -1576,6 +1619,103 @@
 
     }
 
+    #imsMvcH6 {
+        position: absolute;
+        z-index: -200;
+    }
+
+    #imsMvcH6 span{
+        position: absolute;
+        z-index: -200;
+        left: 70px;
+        color: white;
+    }
+
+    #imsMvcImg:hover + #imsMvcH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 7vw;
+        top: 170px;
+    }
+
+    #imsMvcImg:hover + #imsMvcH6 span {
+        position: absolute;
+        z-index: 500;
+        color: white;
+        font-size: 20px;
+        left: 10px;
+        top: 100px;
+        display: block;
+    }
+
+    #imsLH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #imsLH6 span{
+        position: absolute;
+        z-index: -200;
+        left: 70px;
+        color: white;
+    }
+
+    #imsLimg:hover + #imsLH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 7vw;
+        top: 170px;
+    }
+
+    #imsLimg:hover + #imsLH6 span {
+        z-index: 300;
+        color: white;
+        font-size: 20px;
+        left: 50px;
+        top: 25px;
+    }
+
+    #chatH6 {
+        position: absolute;
+        z-index: -200;
+    }
+
+    #chatImg:hover + #chatH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 13vw;
+        top: 170px;
+    }
+
+    #gameH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #gameImg:hover + #gameH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 18vw;
+        top: 170px;
+    }
+
+    #hotelH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #hotelImg:hover + #hotelH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 9vw;
+        top: 170px;
+    }
+
 
     /*====================================Contact=================================================*/
 
@@ -1705,7 +1845,9 @@
     #addressImg{
         position: absolute;
         left: 17vw;
-        top: 880px;
+        top: 870px;
+        height: 15vw;
+        width: 15vw;
     }
 
     #phoneS{
@@ -1722,6 +1864,8 @@
         position: absolute;
         left: 25px;
         top: 25px;
+        height: 15vw;
+        width: 15vw;
     }
 
     #phoneP1{
@@ -1755,6 +1899,8 @@
         position: absolute;
         left: 25px;
         top: 25px;
+        height: 15vw;
+        width: 15vw;
     }
 
     #emailP1{
@@ -1817,8 +1963,8 @@
     #last{
         position: absolute;
         bottom: 20px;
-        left: 8vw;
-        font-size: 10px;
+        left: 4vw;
+        font-size: 2.5vw;
         color: white;
     }
 
