@@ -142,25 +142,39 @@
 
     #ppH1{
         position: absolute;
-        font-size: 400%;
-        bottom: 30vh;
+        font-size: 5vw;
+        top: 250px;
         z-index: 150;
         font-weight: bold;
         left: 10vw;
-        display: none;
+        display: block;
+        color: #B1B493;
     }
 
     #ppH2{
         position: absolute;
-        font-size: 400%;
-        bottom: 21vh;
-        z-index: 100;
+        font-size: 5vw;
+        top: 250px;
+        /*bottom: 15vh;*/
+        z-index: 500;
         font-weight: bold;
-        left: 10vw;
-        display: none;
+        left: 56vw;
+        display: block;
+        color: #B1B493;
     }
 
     #p2st{
+        position: absolute;
+        color: #B2B595;
+        font-size: 100%;
+        left: 10vw;
+        top: 150px;
+        font-weight: bold;
+        display: none;
+    }
+
+
+    #p1st{
         position: absolute;
         color: #B2B595;
         font-size: 100%;
@@ -176,7 +190,7 @@
         top: 30px;
         font-size: 20px;
         left: 5vw;
-        display: flow;
+        display: none;
     }
 
     #p2 {
@@ -187,6 +201,7 @@
         font-weight: bold;
         left: 22vw;
         color: white;
+        display: none;
     }
 
     #btn1 {
@@ -327,12 +342,23 @@
         height: 15vw;
     }
 
+    #phoneNamwe{
+        position: absolute;
+        left: 13vw;
+        font-size: 8vw;
+        color: white;
+        font-weight: bold;
+        top: 200px;
+        z-index: 500;
+    }
+
     #pp5{
         position: absolute;
         left: 40vw;
         top: 58vw;
         font-size: 12vw;
         font-weight: bold;
+        display: none;
     }
 
     #pp6{
@@ -342,6 +368,7 @@
         font-size: 4.7vw;
         font-weight: bold;
         color: #B1B493;
+        display: none;
 
     }
 
@@ -1152,7 +1179,7 @@
 
     #assignmentSet{
         position: relative;
-        height: 1000px;
+        height: 1700px;
         background-color: rgb(169,169,169);
         width: 100%;
         top: 10px;
@@ -1162,6 +1189,7 @@
         position: absolute;
         left: 25vw;
         font-size: 40px;
+        top: 40px;
     }
 
     #assH6{
@@ -1172,221 +1200,257 @@
         display: none;
     }
 
-    #oopDiv{
+    #allBox {
         position: absolute;
-        width: 80vw;
-        height: 150px;
-        top: 100px;
-        left: 10vw;
-        background-color: rgb(217,217,217);
+        left: -6vw;/* or another position value based on your layout needs */
+        display: grid; /* Specify that this element will be a grid container */
+        grid-template-columns: repeat(2, 1fr); /* Three columns with equal fractional width */
+        grid-template-rows: repeat(6, 1fr); /* Four rows with equal fractional height */
+        grid-gap: 2rem; /* Gap between grid items */
+        justify-content: center; /* Center items along the row axis */
+        align-content: center; /* Center items along the column axis (if grid area is larger than items) */
+        align-items: center; /* Align items individually along the column axis */
     }
 
-    #oopNav{
+
+    .card {
         position: relative;
-        background-color: black;
-        color: white;
-        margin-left: 10px;
-        right: 30px;
-        font-size: 16px; /* Adjust font size */
-        top: 110px;
-        /*right: -200px;*/
-        left: -10px;
-        width: 80vw;
+        width: 40vw;
         height: 200px;
-        padding-top: 20px;
-        transition: right 0.5s;
-        z-index: 200;
-        display: none;
-    }
-
-    #oopDiv:hover{
-        position: absolute;
-        width: 170vw;
-        height: 200px;
-        top: 170px;
         left: 10vw;
-        background-color: rgb(177,180,147);
-        display: none;
+        top: 180px;
+        background: #B1B493;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 1s ease-in-out;
+        border: 2px solid rgb(255, 255, 255);
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 2rem;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 2.5vw;
+        font-weight: bold;
+        color: black;
     }
 
-    #oopH3 {
-        position: absolute;
-        left: 5vw;
-        font-size: 20px;
-        top: 10px;
-
-    }
-
-    #oopImg{
-        position: absolute;
-        width: 20vw;
-        height: 50px;
-        left: 30vw;
-        top: 60px;
-    }
-
-    #seDiv{
-        position: absolute;
-        width: 80vw;
-        height: 150px;
-        top: 300px;
-        left: 10vw;
-        background-color: rgb(217,217,217);
-    }
-
-    /*#seDiv:hover{*/
-    /*    position: absolute;*/
-    /*    width: 170vw;*/
+    /*.card {*/
+    /*    position: relative;*/
+    /*    width: 200px;*/
     /*    height: 200px;*/
-    /*    top: 400px;*/
-    /*    left: 10vw;*/
-    /*    background-color: rgb(177,180,147);*/
+    /*    background: lightgrey;*/
+    /*    border-radius: 30px;*/
+    /*    overflow: hidden;*/
+    /*    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+    /*    transition: all 1s ease-in-out;*/
+    /*    border: 2px solid rgb(255, 255, 255);*/
     /*}*/
 
-
-    #seH3{
+    .background {
         position: absolute;
-        left: 13vw;
-        font-size: 20px;
-        top: 10px;
+        inset: 0;
+        /*background-color: #4158D0;*/
+        /*background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);*/
     }
 
-    #seImg{
+    .logo {
         position: absolute;
-        width: 20vw;
-        height: 50px;
-        left: 30vw;
-        top: 60px;
+        right: 50%;
+        bottom: 50%;
+        transform: translate(50%, 50%);
+        transition: all 0.6s ease-in-out;
+        font-size: 1.3em;
+        font-weight: 600;
+        color: black;
+        letter-spacing: 3px;
     }
 
-    #seNav{
-        position: relative;
-        background-color: black;
-        color: white;
-        margin-left: 10px;
-        right: 30px;
-        font-size: 16px; /* Adjust font size */
-        top: 110px;
-        /*right: -200px;*/
-        left: -10px;
-        width: 80vw;
-        height: 200px;
-        padding-top: 20px;
-        transition: right 0.5s;
-        z-index: 200;
-        display: none;
+    .logo .logo-svg {
+        fill: white;
+        width: 30px;
+        height: 30px;
     }
 
-    #ormDiv{
+    .icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon .svg {
+        fill: rgba(255, 255, 255, 0.797);
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .box {
         position: absolute;
-        width: 80vw;
-        height: 150px;
-        top: 500px;
-        left: 10vw;
-        background-color: rgb(217,217,217);
+        padding: 10px;
+        text-align: right;
+        background: white;
+        border-top: 2px solid rgb(255, 255, 255);
+        border-right: 1px solid white;
+        border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
+        box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
+        transform-origin: bottom left;
+        transition: all 1s ease-in-out;
     }
 
-    /*#ormDiv:hover{*/
-    /*    position: absolute;*/
-    /*    width: 170vw;*/
-    /*    height: 200px;*/
-    /*    top: 630px;*/
-    /*    left: 10vw;*/
-    /*    background-color: rgb(177, 180, 147);*/
-    /*}*/
-
-    #ormH3{
+    .box::before {
+        content: "";
         position: absolute;
-        left: 5vw;
-        font-size: 20px;
-        top: 10px;
+        inset: 0;
+        border-radius: inherit;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
     }
 
-    #ormImg{
-        position: absolute;
-        width: 20vw;
-        height: 50px;
-        left: 30vw;
-        top: 60px;
+    .box:hover .svg {
+        fill: white;
     }
 
-    #ormNav{
-        position: relative;
-        background-color: black;
-        color: white;
-        margin-left: 10px;
-        right: 30px;
-        font-size: 16px; /* Adjust font size */
-        top: 110px;
-        /*right: -200px;*/
-        left: -10px;
-        width: 80vw;
-        height: 200px;
-        padding-top: 20px;
-        transition: right 0.5s;
-        z-index: 200;
-        display: none;
+    .box1 {
+        width: 70%;
+        height: 70%;
+        bottom: -70%;
+        left: -70%;
     }
 
-    #itDiv{
-        position: absolute;
-        width: 80vw;
-        height: 150px;
-        top: 700px;
-        left: 10vw;
-        background-color:  rgb(217,217,217);
+    .box1::before {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
     }
 
-    /*#itDiv:hover {*/
-    /*    position: absolute;*/
-    /*    width: 170vw;*/
-    /*    height: 200px;*/
-    /*    top: 860px;*/
-    /*    left: 10vw;*/
-    /*    background-color: rgb(177, 180, 147);*/
-    /*}*/
-
-    #itH3{
-        position: absolute;
-        left: 15vw;
-        font-size: 20px;
-        top: 10px;
+    .box1:hover::before {
+        opacity: 1;
     }
 
-    #itImg{
-        position: absolute;
-        width: 20vw;
-        height: 50px;
-        left: 30vw;
-        top: 60px;
+    .box1:hover .icon .svg {
+        filter: drop-shadow(0 0 5px white);
     }
 
-    #itNav{
-        position: relative;
-        background-color: black;
-        color: white;
-        margin-left: 10px;
-        right: 30px;
-        font-size: 16px; /* Adjust font size */
-        top: 110px;
-        /*right: -200px;*/
-        left: -10px;
-        width: 80vw;
-        height: 200px;
-        padding-top: 20px;
-        transition: right 0.5s;
-        z-index: 200;
-        display: none;
+    .box2 {
+        width: 50%;
+        height: 50%;
+        bottom: -50%;
+        left: -50%;
+        transition-delay: 0.2s;
     }
 
-    #downBtn{
-        position: absolute;
-        width: 10vw;
-        height: 40px;
-        border: 1px solid black;
-        border-radius: 100px;
-        bottom: 40px;
-        left: 45vw;
+    .box2::before {
+        background: radial-gradient(circle at 30% 107%, #91e9ff 0%, #00ACEE 90%);
+    }
+
+    .box2:hover::before {
+        opacity: 1;
+    }
+
+    .box2:hover .icon .svg {
+        filter: drop-shadow(0 0 5px white);
+    }
+
+    .box3 {
+        width: 30%;
+        height: 30%;
+        bottom: -30%;
+        left: -30%;
+        transition-delay: 0.4s;
+    }
+
+    .box3::before {
+        background: radial-gradient(circle at 30% 107%, #969fff 0%, #b349ff 90%);
+    }
+
+    .box3:hover::before {
+        opacity: 1;
+    }
+
+    .box3:hover .icon .svg {
+        filter: drop-shadow(0 0 5px white);
+    }
+
+    .box4 {
+        width: 10%;
+        height: 10%;
+        bottom: -10%;
+        left: -10%;
+        transition-delay: 0.6s;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+    }
+
+    .card:hover .box {
+        bottom: -1px;
+        left: -1px;
+    }
+
+    .card:hover .logo {
+        transform: translate(70px, -52px);
+        letter-spacing: 0px;
+    }
+
+    #aDiv1{
+        top: 160px;
+        left: 8vw;
+    }
+
+    #aDiv2{
+        top: 160px;
+        left: 36vw;
+    }
+
+    #aDiv3{
+        top: 160px;
+        left: 64vw;
+    }
+
+    #aDiv4{
+        top: 400px;
+        left: 8vw;
+    }
+
+    #aDiv5{
+        top: 400px;
+        left: 36vw;
+    }
+
+    #aDiv6{
+        top: 400px;
+        left: 64vw;
+    }
+
+    #aDiv7{
+        top: 640px;
+        left: 8vw;
+    }
+
+    #aDiv8{
+        top: 640px;
+        left: 36vw;
+    }
+
+    #aDiv9{
+        top: 640px;
+        left: 64vw;
+    }
+
+    #aDiv10{
+        top: 880px;
+        left: 8vw;
+    }
+
+    #aDiv11{
+        top: 880px;
+        left: 36vw;
+    }
+
+    #aDiv12{
+        top: 880px;
+        left: 64vw;
     }
 
 

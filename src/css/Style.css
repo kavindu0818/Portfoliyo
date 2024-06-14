@@ -105,11 +105,12 @@ header>div>nav>a:hover{
 
 #pback1{
     position: absolute;
-    right: 18vw;
+    left: 35vw;
     width: 60vw;
     height: 50vh;
     bottom: 0px;
-    width: 600px;   //600
+    width: 600px;
+
 }
 
 #pback2{
@@ -118,13 +119,16 @@ header>div>nav>a:hover{
     top: 0vh;
     height: 530px;
     width: 55.7vw;
+
 }
 
 #pback3{
     position: absolute;
-    right: 33vw;
+    /*right: 33vw;*/
+    left: 41vw;
     bottom: 0px;
-    /*top: -10;*/
+    width: 25vw;
+
 }
 
 #profile{
@@ -137,6 +141,7 @@ header>div>nav>a:hover{
 #profile:hover #p1 {
   display: none;
 }
+
 
 #ppH1{
     position: absolute;
@@ -208,6 +213,79 @@ span{
     font-weight: bold;
 }
 
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+
+    #ppH1{
+        position: absolute;
+        font-size: 6vw;
+        bottom: 30vh;
+        z-index: 150;
+        font-weight: bold;
+        left: 10vw;
+        display: none;
+    }
+
+    #ppH2{
+        position: absolute;
+        font-size: 6vw;
+        bottom: 21vh;
+        z-index: 100;
+        font-weight: bold;
+        left: 10vw;
+        display: none;
+    }
+
+    #p2st{
+        position: absolute;
+        color: #B2B595;
+        font-size: 100%;
+        left: 10vw;
+        top: 150px;
+        font-weight: bold;
+        display: none;
+    }
+
+    span{
+        color: #B1B493;
+    }
+    #p1{
+        position: absolute;
+        font-size: 7vw;
+        bottom: 30vh;
+        z-index: 150;
+        font-weight: bold;
+        left: 10vw;
+    }
+
+    #p2{
+        position: absolute;
+        font-size: 7vw;
+        bottom: 21vh;
+        z-index: 1000;
+        font-weight: bold;
+        left: 10vw;
+    }
+
+    #rp1{
+        position: absolute;
+        display: none;
+    }
+
+    #pback3{
+        position: absolute;
+        /*right: 33vw;*/
+        left: 41vw;
+        bottom: 0px;
+        width: 25vw;
+         display: none;
+    }
+
+    #rp2{
+        position: absolute;
+        display: none;
+    }
+}
+
 #btn1{
     position: absolute;
     bottom: 10vw;
@@ -233,6 +311,39 @@ span{
 #btn2:hover {
     background-color: #B1B493;
     color: white/* Background color on hover */
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+    #btn1{
+        position: absolute;
+        bottom: 10vw;
+        left: 10vw;
+        width: 10vw;
+        height: 6vh;
+        background-color: #B1B493;
+        font-weight: bold;
+        border: none;
+        color: white;
+        /*border-bottom-left-radius: 10px;*/
+    }
+    #btn2{
+        position: absolute;
+        bottom: 10vw;
+        left: 22vw;
+        width: 10vw;
+        height: 6vh;
+        color: #B2B595;
+        background-color: white;
+        border: 1px solid  #B1B493;
+    }
+    #btn2:hover {
+        background-color: #B1B493;
+        color: white/* Background color on hover */
+    }
+
+
+
+
 }
 
 #quality{
@@ -1181,7 +1292,7 @@ span{
 
 #assH6{
     position: absolute;
-    font-size: 2vw;
+    font-size: 1.5vw;
     left: 150px;
     top: 60px;
 }
@@ -1471,37 +1582,37 @@ span{
 
 #proH4{
     position: absolute;
-    left: 600px;
+    left: 43vw;
     font-size: 20px;
     color: rgb(179,177,143);
 }
 
 #proH1{
     position: absolute;
-    left: 530px;
-    font-size: 70px;
+    left: 40vw;
+    font-size: 5vw;
     font-weight: bold;
     top: 20px;
 }
 
 #proH6{
     position: absolute;
-    left: 90px;
-    font-size: 20px;
+    left: 5vw;
+    font-size: 1.5vw;
     top: 100px;
     color: rgb(179,177,143);
 }
 
 #imsMvcImg{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
 
 }
 
 #mvc{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
     margin: 30px;
     top: 170px;
@@ -1509,61 +1620,61 @@ span{
 
 #lyd{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
     margin: 30px;
     top: 170px;
-    left: 440px;
+    left: 32.2vw;
 }
 
 #imsLimg{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
 }
 
 #game{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
     margin: 30px;
     top: 170px;
-    left: 880px;
+    left: 64.5vw;
 }
 
 #gameImg{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
 }
 
 #chat{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
     margin: 30px;
     top: 610px;
-    left: 200px;
+    left: 15vw;
 }
 
 #chatImg{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
 }
 
 #hotel{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
     margin: 30px;
     top: 610px;
-    left: 660px;
+    left: 47.5vw;
 }
 
 #hotelImg{
     position: absolute;
-    width: 400px;
+    width: 29vw;
     height: 400px;
 }
 
@@ -1582,8 +1693,8 @@ span{
 #imsMvcImg:hover + #imsMvcH6 {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 70px;
+    font-size: 1vw;
+    left: 5vw;
     top: 130px;
 }
 
@@ -1674,7 +1785,7 @@ span{
 
 #conH4{
     position: absolute;
-    left: 600px;
+    left: 45vw;
     top: 20px;
     color: rgb(179,177,143);
 
@@ -1682,25 +1793,25 @@ span{
 
 #conH1{
     position: absolute;
-    left: 500px;
+    left: 37vw;
     top: 30px;
     /*font-weight: bold;*/
-    font-size: 60px;
+    font-size: 5vw;
 }
 
 #conH6{
     position: absolute;
-    left: 200px;
-    top: 100px;
-    font-size: 20px;
+    left: 14vw;
+    top: 120px;
+    font-size: 1.5vw;
     color: rgb(179,177,143);
 
 }
 
 #inputDiv{
     position: absolute;
-    left:50px;
-    width: 850px;
+    left:3.5vw;
+    width: 62vw;
     height: 600px;
     background-color: whitesmoke;
     top: 250px;
@@ -1710,34 +1821,34 @@ span{
 #name{
     position: absolute;
     top: 50px;
-    width: 350px;
+    width: 28vw;
     height: 50px;
-    left: 40px;
+    left: 3vw;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
 
 #email{
     position: absolute;
     top: 50px;
-    width: 350px;
+    width: 25.5vw;
     height: 50px;
-    left: 450px;
+    left: 33vw;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
 
 #subject{
     position: absolute;
-    width: 760px;
+    width: 55.5vw;
     height: 50px;
-    left: 40px;
+    left: 3vw;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     top: 150px;
 }
 
 #msg{
     position: absolute;
-    width: 760px;
+    width: 55.5vw;
     height: 200px;
-    left: 40px;
+    left: 3vw;
     top: 250px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
@@ -1745,9 +1856,9 @@ span{
 
 #sendBtn{
     position: absolute;
-    width: 200px;
+    width: 12vw;
     height: 50px;
-    left: 40px;
+    left: 3vw;
     top: 500px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     font-size: 20px;
@@ -1759,17 +1870,17 @@ span{
 
 #addS{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 7.5vw;
+    height: 7.5vw;
     border-radius: 100px;
     background-color: rgb(177,180,147);
-    left: 930px;
+    left: 68vw;
     top: 250px;
 }
 
 #addressP1{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 240px;
     font-weight: bold;
     font-size: 20px;
@@ -1777,7 +1888,7 @@ span{
 
 #addressP2{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 270px;
     font-weight: bold;
     font-size: 20px;
@@ -1786,29 +1897,33 @@ span{
 
 #addressImg{
     position: absolute;
-    left: 955px;
+    left: 70vw;
     top: 275px;
+    width: 4vw;
+    height: 4vw;
 }
 
 #phoneS{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 7.5vw;
+    height: 7.5vw;
     border-radius: 100px;
     background-color: rgb(177,180,147);
-    left: 930px;
+    left: 68vw;
     top: 400px;
 }
 
 #phoneImg{
     position: absolute;
-    left: 25px;
+    left: 2vw;
     top: 25px;
+    width: 4vw;
+    height: 4vw;
 }
 
 #phoneP1{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 390px;
     font-weight: bold;
     font-size: 20px;
@@ -1816,7 +1931,7 @@ span{
 
 #phoneP2{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 420px;
     font-weight: bold;
     font-size: 20px;
@@ -1825,23 +1940,25 @@ span{
 
 #emailS{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 7.5vw;
+    height: 7.5vw;
     border-radius: 100px;
     background-color: rgb(177,180,147);
-    left: 930px;
+    left: 68vw;
     top: 550px;
 }
 
 #emailImg{
     position: absolute;
-    left: 25px;
+    left: 2vw;
     top: 25px;
+    width: 4vw;
+    height: 4vw;
 }
 
 #emailP1{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 540px;
     font-weight: bold;
     font-size: 20px;
@@ -1849,7 +1966,7 @@ span{
 
 #emailP2{
     position: absolute;
-    left: 1040px;
+    left: 76vw;
     top: 570px;
     font-weight: bold;
     font-size: 20px;
@@ -1892,8 +2009,8 @@ span{
 #last{
     position: absolute;
     bottom: 20px;
-    left: 300px;
-    font-size: 20px;
+    left: 20vw;
+    font-size: 1.5vw;
     color: white;
 }
 
@@ -1996,7 +2113,7 @@ span{
     position: absolute;
     padding: 10px;
     text-align: right;
-    background: black;
+    background: white;
     border-top: 2px solid rgb(255, 255, 255);
     border-right: 1px solid white;
     border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
