@@ -20,7 +20,7 @@ function openmenu() {
 }
 
 function closemenu() {
-    nav.style.left = "-200px";
+    nav.style.display = "none";
 }
 
 var oopNav = document.getElementById("oopNav");

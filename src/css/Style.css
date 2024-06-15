@@ -93,7 +93,63 @@ header>div>nav>a:hover{
         z-index: 0;
         /*height: 120px;*/
     }
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+    #pback5 {
+        position: absolute;
+        right: 43vw;
+        bottom: 0px;
+        /*width: 90px;*/
+        z-index: -1000;
+        display: none;
+        /*height: 120px;*/
+    }
 
+    #imgNav{
+        position: absolute;
+        left: 40vw;
+        right: 0vw;
+        top: 0px;
+        width: 60vw;
+        height: 90px;
+        z-index: 1200;
+        background-color: white;
+        display: none;
+        /*border-left: 10px solid black;*/
+    }
+
+    #nav a {
+        right: 5vw;
+        color: black; /* Apply white color to navigation links */
+        text-decoration: none;
+        font-weight: bold;/* Remove underline from links */
+    }
+
+    #navDiv {
+        position: absolute;
+        height: 90px;
+        /*width: 100%;*/
+        width: 100vw;
+        background-color: white;
+        top: 0px;
+        display: flex;
+        /*text-decoration: none;*/
+    }
+
+    #nav {
+        position: absolute;
+        margin-left: 5vw;
+        right: 5vw;
+        color: white;
+        font-size: 130%;
+        top: 30px;
+        z-index: 1300;
+        display: block;
+        unicode-bidi: isolate;
+        /*text-decoration: none;*/
+
+    }
+
+}
 
 #pro{
     position: relative;
@@ -110,6 +166,7 @@ header>div>nav>a:hover{
     height: 50vh;
     bottom: 0px;
     width: 600px;
+    /*border-left: 5px solid black;*/
 
 }
 
@@ -150,6 +207,11 @@ header>div>nav>a:hover{
     z-index: 150;
     font-weight: bold;
     left: 10vw;
+    display: none;
+}
+
+#phoneNamwe{
+    position: absolute;
     display: none;
 }
 
@@ -351,7 +413,7 @@ span{
     height: 35vh;
     top: 73px;
     width: 100%;
-    background-color: darkgray;
+    background-color: #F8F9FA;
 }
 
 #ellips1{
@@ -594,6 +656,62 @@ span{
     font-weight: bold;
 }
 
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+    #ellips6{
+        position: absolute;
+        left: 510px;
+        top: 510px;
+        width: 50px;
+        height: 50px;
+    }
+    #icon2{
+        position: absolute;
+        left: 520px;
+        top: 517px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+    #pa3 {
+        position: absolute;
+        left: 575px;
+        top: 500px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #ellips7{
+        position: absolute;
+        left: 700px;
+        top: 510px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #icon1{
+        position: absolute;
+        left: 710px;
+        top: 517px;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+    #pa{
+        position: absolute;
+        left: 770px;
+        top: 500px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #ul{
+        position: absolute;
+        left: 490px;
+        top: 320px;
+    }
+
+
+
+}
 #skillSet{
     position: relative;
     height: 700px;
@@ -1616,6 +1734,7 @@ span{
     height: 400px;
     margin: 30px;
     top: 170px;
+    /*border: 7px solid black;*/
 }
 
 #lyd{
@@ -1625,6 +1744,8 @@ span{
     margin: 30px;
     top: 170px;
     left: 32.2vw;
+    /*border: 7px solid black;*/
+
 }
 
 #imsLimg{
@@ -1640,7 +1761,10 @@ span{
     margin: 30px;
     top: 170px;
     left: 64.5vw;
+    /*border: 7px solid black;*/
+
 }
+
 
 #gameImg{
     position: absolute;
@@ -1655,6 +1779,8 @@ span{
     margin: 30px;
     top: 610px;
     left: 15vw;
+    /*border: 7px solid black;*/
+
 }
 
 #chatImg{
@@ -1670,6 +1796,8 @@ span{
     margin: 30px;
     top: 610px;
     left: 47.5vw;
+    /*border: 7px solid black;*/
+
 }
 
 #hotelImg{
@@ -1693,17 +1821,17 @@ span{
 #imsMvcImg:hover + #imsMvcH6 {
     z-index: 300;
     color: white;
-    font-size: 1vw;
-    left: 5vw;
-    top: 130px;
+    font-size: 2vw;
+    left: 1.5vw;
+    top: 270px;
 }
 
 #imsMvcImg:hover + #imsMvcH6 span {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 50px;
-    top: 25px;
+    font-size: 1.5vw;
+    left: 7vw;
+    top: 35px;
 }
 
 #imsLH6{
@@ -1721,17 +1849,17 @@ span{
 #imsLimg:hover + #imsLH6 {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 70px;
-    top: 130px;
+    font-size: 2vw;
+    left: 1.5vw;
+    top: 270px;
 }
 
 #imsLimg:hover + #imsLH6 span {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 50px;
-    top: 25px;
+    font-size: 1.5vw;
+    left: 7vw;
+    top: 35px;
 }
 
 #chatH6 {
@@ -1742,9 +1870,9 @@ span{
 #chatImg:hover + #chatH6 {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 85px;
-    top: 130px;
+    font-size: 2vw;
+    left: 4vw;
+    top: 270px;
 }
 
 #gameH6{
@@ -1755,9 +1883,9 @@ span{
 #gameImg:hover + #gameH6 {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 95px;
-    top: 130px;
+    font-size: 2vw;
+    left: 5vw;
+    top: 270px;
 }
 
 #hotelH6{
@@ -1768,9 +1896,9 @@ span{
 #hotelImg:hover + #hotelH6 {
     z-index: 300;
     color: white;
-    font-size: 20px;
-    left: 85px;
-    top: 130px;
+    font-size: 2vw;
+    left: 2vw;
+    top: 270px;
 }
 
 

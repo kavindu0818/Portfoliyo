@@ -19,27 +19,34 @@
         height: 80px;
         width: 100%;
         background-color: black;
+        /*color: white;*/
+        /*font-weight: bold;*/
         display: block;
         align-items: center;
         z-index: 300;/* Center align items vertically */
     }
 
     #nav {
-        position: absolute;
-        margin-left: 0.01vw;
-        left: 2vw;
+        position: fixed;
+        background-color: black;
         color: white;
-        font-size: 100%;
-        top: 90px;
-        z-index: -50;
-        display: flow;
+        font-size: 16px; /* Adjust font size */
+        top: 12vh;
+        /*right: -200px;*/
+        left:-5vw;
+        /*width: 100vw;*/
+        height: 300px;
+        padding-top: 20px;
+        transition: right 0.5s;
+        z-index: 2000;
+        display: none;/
         /*unicode-bidi: isolate;*/
         /*text-decoration: none;*/
 
     }
 
     nav a{
-        display:none;
+        display: block;
         margin: 10px;
     }
 
@@ -49,17 +56,21 @@
         top: 30px;
         width: 40px;
         height: 30px;
-        background-color: white;
+        color: white;
+        font-weight: bold;
+        /*background-color: white;*/
         left: 80vw;
     }
 
     #timeBar{
         position: absolute;
-        display: none;
+        display: block;
         width: 20px;
         height: 20px;
-        top: 20px;
+        top: 5px;
         left: 10px;
+        color: white;
+        background-color: white;
     }
 
     #tag {
@@ -108,7 +119,7 @@
       bottom: 180px;
       z-index: 110;
       font-weight: bold;
-      left: 7vw;
+      left: 6vw;
   }
 
     span{
@@ -121,7 +132,7 @@
         font-size: 3vw;
         left: 25vw;
         top: 300px;
-        z-index: 1000;
+        z-index: 200;
         font-weight: bold;
     }
 
@@ -131,7 +142,7 @@
         font-size: 3vw;
         left: 25vw;
         top: 300px;
-        z-index: 1000;
+        z-index: 200;
         font-weight: bold;
     }
 
@@ -141,7 +152,7 @@
         bottom: 130px;
         z-index: 110;
         font-weight: bold;
-        left: 20vw;
+        left: 18vw;
         color: white;
         display: block;
     }
@@ -162,9 +173,9 @@
         font-size: 8vw;
         bottom: 21vh;
         color: white;
-        z-index: 1000;
+        z-index: 200;
         font-weight: bold;
-        left: 22vw;
+        left: 21vw;
         display: none;
     }
 
@@ -390,16 +401,16 @@
         position: absolute;
         left: 50vw;
         top: 140px;
-        font-size: 13px;
+        font-size: 2vw;
         margin-right: 4vw;
     }
 
     #ul{
         position: absolute;
         left: 55vw;
-        top: 340px;
+        top: 320px;
         font-weight: bold;
-        font-size: 2.5vw;
+        font-size: 2vw;
         font-family: "Arial Narrow";
     }
 
@@ -1448,15 +1459,15 @@
 
     #proH4{
         position: absolute;
-        left: 35vw;
+        left: 31vw;
         top: 20px;
-        font-size: 17px;
+        font-size: 3vw;
         color: rgb(179,177,143);
     }
 
     #proH1{
         position: absolute;
-        left: 30vw;
+        left: 25vw;
         font-size: 50px;
         font-weight: bold;
         top: 20px;
@@ -1554,9 +1565,104 @@
     #imsMvcImg:hover #imsMvcH6 {
         z-index: 100;
         color: white;
-        font-size: 20px;
+        font-size: 5vw;
         left: 20px;
 
+    }
+
+    #imsMvcH6 {
+        position: absolute;
+        z-index: -200;
+    }
+
+    #imsMvcH6 span{
+        position: absolute;
+        z-index: -200;
+        left: 70px;
+        color: white;
+    }
+
+    #imsMvcImg:hover + #imsMvcH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 6.5vw;
+        top: 120px;
+    }
+
+    #imsMvcImg:hover + #imsMvcH6 span {
+        z-index: 300;
+        color: white;
+        font-size: 4vw;
+        left: 15vw;
+        top: 35px;
+    }
+
+    #imsLH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #imsLH6 span{
+        position: absolute;
+        z-index: -200;
+        left: 70px;
+        color: white;
+    }
+
+    #imsLimg:hover + #imsLH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 6.5vw;
+        top: 120px;
+    }
+
+    #imsLimg:hover + #imsLH6 span {
+        z-index: 300;
+        color: white;
+        font-size: 4vw;
+        left: 15vw;
+        top: 35px;
+    }
+
+    #chatH6 {
+        position: absolute;
+        z-index: -200;
+    }
+
+    #chatImg:hover + #chatH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 13vw;
+        top: 160px;
+    }
+
+    #gameH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #gameImg:hover + #gameH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 17vw;
+        top: 160px;
+    }
+
+    #hotelH6{
+        position: absolute;
+        z-index: -200;
+    }
+
+    #hotelImg:hover + #hotelH6 {
+        z-index: 300;
+        color: white;
+        font-size: 5vw;
+        left: 8vw;
+        top: 160px;
     }
 
     /*========================================Contact==============================================*/
@@ -1571,7 +1677,7 @@
 
     #conH4{
         position: absolute;
-        left: 35vw;
+        left: 40vw;
         top: 5vh;
         color: rgb(179,177,143);
 
@@ -1579,7 +1685,7 @@
 
     #conH1{
         position: absolute;
-        left: 20vw;
+        left: 30vw;
         top: 5vh;
         /*font-weight: bold;*/
         font-size: 40px;
@@ -1587,10 +1693,10 @@
 
     #conH6{
         position: absolute;
-        left: 10vw;
+        left: 12vw;
         margin-right: 10vw;
-        top: 25vh;
-        font-size: 15px;
+        top: 20vh;
+        font-size: 3vw;
         color: rgb(179,177,143);
 
     }
@@ -1657,11 +1763,11 @@
 
     #addS{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 15vw;
+        height: 15vw;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 10vw;
+        left: 20vw;
         top: 850px;
     }
 
@@ -1684,17 +1790,19 @@
 
     #addressImg{
         position: absolute;
-        left: 17vw;
+        left: 23.5vw;
         top: 880px;
+        width: 8vw;
+        height: 8vw;
     }
 
     #phoneS{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 15vw;
+        height: 15vw;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 10vw;
+        left: 20vw;
         top: 980px;
     }
 
@@ -1702,6 +1810,8 @@
         position: absolute;
         left: 25px;
         top: 25px;
+        width: 8vw;
+        height: 8vw;
     }
 
     #phoneP1{
@@ -1723,11 +1833,11 @@
 
     #emailS{
         position: absolute;
-        width: 100px;
-        height: 100px;
+        width: 15vw;
+        height: 15vw;
         border-radius: 100px;
         background-color: rgb(177,180,147);
-        left: 10vw;
+        left: 20vw;
         top: 1110px;
     }
 
@@ -1735,6 +1845,8 @@
         position: absolute;
         left: 25px;
         top: 25px;
+        width: 8vw;
+        height: 8vw;
     }
 
     #emailP1{
@@ -1774,7 +1886,7 @@
 
     #insta {
         position: absolute;
-        right: 10px;
+        right: 5vw;
         top: 20px;
         width: 10vw;
         height: 30px;
@@ -1782,7 +1894,7 @@
 
     #whatsapp{
         position: absolute;
-        right: 50px;
+        right: 15vw;
         top: 20px;
         width: 10vw;
         height: 30px;
@@ -1790,7 +1902,7 @@
 
     #fb{
         position: absolute;
-        right: 90px;
+        right: 25vw;
         top: 20px;
         width: 10vw;
         height: 30px;
@@ -1799,8 +1911,8 @@
     #last{
         position: absolute;
         bottom: 20px;
-        left: 8vw;
-        font-size: 10px;
+        left: 11vw;
+        font-size: 2vw;
         color: white;
     }
 
