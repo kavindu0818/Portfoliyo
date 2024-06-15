@@ -10,6 +10,10 @@ function togglemenu() {
     }
 }
 
+document.getElementById('btn1').addEventListener('click', function() {
+    document.getElementById('contactSet').scrollIntoView({ behavior: 'smooth' });
+});
+
 function openmenu() {
     const nav = document.getElementById('nav');
     const navDiv = document.getElementById('navDiv');
